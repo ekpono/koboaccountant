@@ -246,7 +246,7 @@
             </div>
 
             <div class="col-md-5 card pb-0 pt-4">
-                <form>
+                <form method="POST" action="{{ route('pay') }}" accept-charset="UTF-8">
                     <div class="form-group row">
                         <label for="name" class="col-sm-4 col-form-label">Name</label>
                         <div class="col-sm-8">
@@ -278,10 +278,10 @@
                         <div class="form-group">
                             <label for="inputState"><h6>Select Package Plan</h6></label>
                             <select id="inputState" class="form-control">
-                              <option selected>PRO</option>
-                             <option>STANDARD</option>
-                              <option>CLASSIC</option>
-                              <option>BASIC</option>
+                                <option name="amount" selected>PRO</option>
+                                <option name="amount" >STANDARD</option>
+                                <option name="amount">CLASSIC</option>
+                                <option name="amount">BASIC</option>
 
                             </select>
                           </div>
