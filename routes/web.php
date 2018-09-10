@@ -18,3 +18,8 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::post('/pay', [
+    'uses' => 'PaymentController@redirectToGateway',
+    'as' => 'pay'
+]);
