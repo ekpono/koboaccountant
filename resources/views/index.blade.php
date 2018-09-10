@@ -49,8 +49,8 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.blade.php">About Us</a></li>
+          <li><a href="blog.blade.php">Blog</a></li>
           <!-- <li><a href="contact.html">Contact</a></li> -->
         </ul>
       </nav>
