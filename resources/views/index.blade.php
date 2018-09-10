@@ -69,7 +69,7 @@
         <div class="carousel-inner" role="listbox">
 
           <div class="carousel-item active">
-            <div class="carousel-background"><img src="img/kobo.jpg" alt=""></div>
+            <div class="carousel-background"><img src="img/kobo.jpg " alt="" class="img"></div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <h1 class="h1">Accounting Isn't That Boring Afterall</h1>
@@ -89,7 +89,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="img/kobo.jpg" alt=""></div>
+            <div class="carousel-background"><img src="img/kobo.jpg" alt="" class="img"></div>
             <div class="carousel-container">
                 <div class="carousel-content">
                     <h1 class="h1">Accounting Isn't That Boring Afterall</h1>
@@ -109,7 +109,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="img/kobo.jpg" alt=""></div>
+            <div class="carousel-background"><img src="img/kobo.jpg" alt="" class="img"></div>
             <div class="carousel-container">
                 <div class="carousel-content">
                     <h1 class="h1">We Make Recruitment Easy and Fun</h1>
@@ -129,7 +129,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="img/kobo.jpg" alt=""></div>
+            <div class="carousel-background"><img src="img/kobo.jpg " alt="" class="img"></div>
             <div class="carousel-container">
                 <div class="carousel-content">
                     <h1 class="h1">Accounting Isn't That Boring Afterall</h1>
@@ -149,7 +149,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/5.jpg" alt=""></div>
+            <div class="carousel-background"><img src="img/intro-carousel/5.jpg" alt="" class="img"></div>
             <div class="carousel-container">
                 <div class="carousel-content">
                     <h1 class="h1">Fun And Seamless Accounting For Business!</h1>
