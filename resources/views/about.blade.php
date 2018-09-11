@@ -18,7 +18,6 @@
               <div class="about-col">
                 <div class="img">
                   <img src="img/about-mission.jpg" alt="" class="img-fluid">
-                  <!-- <div class="icon"><i class="ion-ios-speedometer-outline"></i></div> -->
                 </div>
                 <h2 class="title"><a href="#">Our Mission</a></h2>
                 <ul>
