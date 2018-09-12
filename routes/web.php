@@ -19,6 +19,7 @@ Route::get('/', function () {
     return view('index');
 });
 
+// Route::post('/pay', 'PaymentController@drop')->name('pay');
 Route::post('/pay', [
     'uses' => 'PaymentController@redirectToGateway',
     'as' => 'pay'
