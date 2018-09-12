@@ -272,47 +272,53 @@
 
               <div class="col-md-8 card pb-2 pt-4 ">
                 <form method="POST" action="{{ route('pay') }}" accept-charset="UTF-8">
+                   {{ csrf_field() }} 
                     <div class="form-group row">
-                        <label for="name" class="col-sm-4 col-form-label">Name</label>
+                      <input type="hidden" name="orderID" value="{{'KOBO-'.rand(10000,10000000)}}">
+                      <input type="hidden" name="reference" value="{{ Paystack::genTranxRef() }}">
+                      <input type="hidden" name="key" value="{{ config('paystack.secretKey') }}">
+                      <label for="name" class="col-sm-4 col-form-label">Name</label>
                         <div class="col-sm-8">
-                          <input type="name" class="form-control" id="inputPassword" placeholder="">
+                          <input type="name" name="name" class="form-control" id="inputPassword" placeholder="">
                         </div>
                       </div>
                     
                     <div class="form-group row">
                       <label for="email" class="col-sm-4 col-form-label">Email</label>
                       <div class="col-sm-8">
-                        <input type="email" class="form-control" id="inputPassword" placeholder="">
+                        <input type="email" name="email" class="form-control" id="inputPassword" placeholder="">
                       </div>
                     </div>
 
                     <div class="form-group row">
                         <label for="name" class="col-sm-4 col-form-label">Business Name</label>
                         <div class="col-sm-8">
-                          <input type="name" class="form-control" id="inputPassword" placeholder="">
+                          <input type="name" name="business_name"  class="form-control" id="inputPassword" placeholder="">
                         </div>
                       </div>
 
                       <div class="form-group row">
                           <label for="name" class="col-sm-4 col-form-label">Business Location</label>
                           <div class="col-sm-8">
-                            <input type="name" class="form-control" id="inputPassword" placeholder="">
+                            <input type="name" name="business_location" class="form-control" id="inputPassword" placeholder="">
                           </div>
                         </div>
 
                         <div class="form-group">
                             <label for="inputState"><h6>Select Package Plan</h6></label>
-                            <select id="inputState" class="form-control">
-                                <option name="amount" selected>PRO</option>
-                                <option name="amount" >STANDARD</option>
-                                <option name="amount">CLASSIC</option>
-                                <option name="amount">BASIC</option>
-
+                            <select id="inputState" name="amount" class="form-control">
+                                <option   value="3062800"  selected>PRO</option>
+                                <option  value="1952800">STANDARD</option>
+                                <option  value="1062800">CLASSIC</option>
+                                <option value="562800">BASIC</option>
                             </select>
                           </div>
-                        <a href="" class="btn btn-primary form-control  ">
+                        <button href="" type="submit" class="btn btn-primary form-control pt-2 ">
                             Sign Up
-                        </a>
+                        </button>
+                      {{-- <button class="btn btn-success btn-lg btn-block" type="submit" value="Pay Now!">
+              <i class="fa fa-plus-circle fa-lg"></i> Pay Now!
+              </button> --}}
                   </form>
               </div>
 
