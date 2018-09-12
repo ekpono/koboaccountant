@@ -246,6 +246,15 @@
             </div>
 
             <div class="col-md-5 card pb-0 pt-4">
+              @if ($errors->any())
+                  <div class="alert alert-danger">
+                      <ul>
+                          @foreach ($errors->all() as $error)
+                              <li>{{ $error }}</li>
+                          @endforeach
+                      </ul>
+                  </div>
+              @endif
                 <form method="POST" action="{{ route('pay') }}" accept-charset="UTF-8">
                    {{ csrf_field() }} 
                     <div class="form-group row">
@@ -254,41 +263,41 @@
                       <input type="hidden" name="key" value="{{ config('paystack.secretKey') }}">
                       <label for="name" class="col-sm-4 col-form-label">Name</label>
                         <div class="col-sm-8">
-                          <input type="name" name="name" class="form-control" id="inputPassword" placeholder="">
+                          <input type="name" name="name" class="form-control" id="inputPassword" placeholder="" required>
                         </div>
                       </div>
                     
                     <div class="form-group row">
                       <label for="email" class="col-sm-4 col-form-label">Email</label>
                       <div class="col-sm-8">
-                        <input type="email" name="email" class="form-control" id="inputPassword" placeholder="">
+                        <input type="email" name="email" class="form-control" id="inputPassword" placeholder="" required>
                       </div>
                     </div>
 
                     <div class="form-group row">
                         <label for="name" class="col-sm-4 col-form-label">Business Name</label>
                         <div class="col-sm-8">
-                          <input type="name" name="business_name"  class="form-control" id="inputPassword" placeholder="">
+                          <input type="name" name="business_name"  class="form-control" id="inputPassword" placeholder="" required>
                         </div>
                       </div>
 
                       <div class="form-group row">
                           <label for="name" class="col-sm-4 col-form-label">Business Location</label>
                           <div class="col-sm-8">
-                            <input type="name" name="business_location" class="form-control" id="inputPassword" placeholder="">
+                            <input type="name" name="business_location" class="form-control" id="inputPassword" placeholder="" required>
                           </div>
                         </div>
 
                         <div class="form-group">
                             <label for="inputState"><h6>Select Package Plan</h6></label>
-                            <select id="inputState" name="amount" class="form-control">
+                            <select id="inputState" name="amount" class="form-control" required>
                                 <option   value="3062800"  selected>PRO</option>
                                 <option  value="1952800">STANDARD</option>
                                 <option  value="1062800">CLASSIC</option>
                                 <option value="562800">BASIC</option>
                             </select>
                           </div>
-                        <button href="" type="submit" class="btn btn-primary form-control pt-2 ">
+                        <button href="" id="signupForm" type="submit" class="btn btn-primary form-control pt-2 ">
                             Sign Up
                         </button>
                       {{-- <button class="btn btn-success btn-lg btn-block" type="submit" value="Pay Now!">
@@ -310,6 +319,7 @@
  
 
   <!-- JavaScript Libraries -->
+  <script src="https://unpkg.com/formik/dist/formik.umd.production.js"></script>
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>

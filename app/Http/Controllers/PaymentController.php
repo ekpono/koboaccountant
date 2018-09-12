@@ -1,17 +1,16 @@
 <?php
-
 namespace App\Http\Controllers;
-use Illuminate\Foundation\Http\MemberRequest;
+use App\Http\Requests\MemberRequest;
+
 use Illuminate\Http\Request;
 use Paystack;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Client;
-
 use App\Member;
 use Uuid;
 class PaymentController extends Controller
 {
-    public function redirectToGateway(MemberRequest  $request)
+    public function redirectToGateway(MemberRequest $request)
     {      
         $member = new Member;
         $member->id = Uuid::generate(5,str_random(5), Uuid::NS_DNS);
@@ -21,7 +20,12 @@ class PaymentController extends Controller
         $member->package = $request->input('amount');
         $member->business_location = $request->input('business_location');
         $member->save();
-
-        return Paystack::getAuthorizationUrl()->redirectNow();
+        try {
+         return Paystack::getAuthorizationUrl()->redirectNow();
+        }
+        catch (\Exception $e) {
+            return $e->getMessage();
+        }
+       
     }
 }
