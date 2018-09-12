@@ -1,3 +1,18 @@
+// navbar active
+
+  // Get the container element
+  var header = document.getElementById("nav-menu-container");
+  var btns = header.getElementsByClassName("menu");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+  
+
+
 jQuery(document).ready(function( $ ) {
 
     // Back to top button
@@ -171,4 +186,5 @@ jQuery(document).ready(function( $ ) {
     });
   
   });
-  
+
+    

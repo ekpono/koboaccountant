@@ -8,37 +8,43 @@
           <header class="section-header mt-5 pt-2">
             <h3>About Us</h3>
             <p>Koboaccountant Services is a registered online Accounting business in Nigeria.
-                Our business model is designed  to enable us service our identified Niche efficiently and profitably. Our main goal is to provide Professional Accounting Services (PAS) to Business Startups, Small and Medium scale enterprises who prior to now weren’t able to access this services (PAS) largely due to the affordability (cost of hiring an Accountant or a Financial Consultant). 
-                We therefore structured our value added services with the aim of ensuring our Niche market (SMEs/Startups) have access to top notch accounting which entails; Keeping proper financial records and access to Professional advice. Consequently, we hope to grow into the business that will shape Africa and indeed the world.</p>
+                Our main goal is to provide Professional Accounting Services (PAS) to Business Startups, Small and Medium scale enterprises who prior to now were not able to access this services (PAS) largely due to the affordability (cost of hiring an Accountant or a Financial Consultant). 
+                We therefore structured our value added services with the aim of ensuring our Niche market (SMEs/Startups) have access to top notch financial services. Consequently, we hope to grow into the business that will shape Africa and indeed the world.</p>
           </header>
     
           <div class="row about-cols">
     
-            <div class="col-md-6 wow fadeInUp">
+            <div class="col-md-4 wow fadeInUp">
               <div class="about-col">
-                <div class="img">
-                  <img src="img/about-mission.jpg" alt="" class="img-fluid">
+                <div class="img text-center">
+                  <img src="img/mission.jpg" alt="" class="img-fluid text-center" >
                 </div>
                 <h2 class="title"><a href="#">Our Mission</a></h2>
-                <ul>
-                    <li> To provide MSMEs with support that would give their business the needed tools to be successful.</li>
-                    <li> To make accounting fun, easy and as useable as it can be without compromising on quality.</li>
-                    <li> To expand our services to include Accounting for Individuals overtime.</li>
-                    <li> To create employment for at least 500 Accountants.</li>
-                </ul>
+                <p class="p">
+                    To build long term relationships with our customers and clients and provide exceptional customer services by pursuing business through innovation and advanced technology.
+
+                </p>
               </div>
             </div>
     
-            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="col-md-4  wow fadeInUp text-center " data-wow-delay="0.5s">
                 <div class="about-col">
                   <div class="img">
-                    <img src="img/about-vision.jpg" alt="" class="img-fluid">
-                    <!-- <div class="icon"><i class="ion-ios-eye-outline"></i></div> -->
+                    <img src="img/vision.jpg" alt="" class="img-fluid pt-5">
                   </div>
                   <h2 class="title"><a href="#">Our Vision</a></h2>
                   <p>
-                      To provide startups & small and medium scale business access to affordable professional accounting services through simplified, easy-to-use platforms and consequently, build businesses that will rank among the best in the Africa
+                    To be a leader and provide quality services that exceeds the expectations of our esteemed customers.
                   </p>
+                </div>
+              </div>
+
+              <div class="col-md-4  wow fadeInUp text-center " data-wow-delay="0.3s">
+                <div class="about-col">
+                  <div class="img">
+                    <img src="img/core.png" alt="" class="img-fluid pt-4" style="height: 350px;">
+                  </div>
+                  
                 </div>
               </div>
  
@@ -58,7 +64,7 @@
           </header>
   
         
-          <div class="row portfolio-container">
+          <div class="row portfolio-container text-center">
   
             <div class="col-lg-3 col-md-6 portfolio-item filter-app wow fadeInUp">
               <div class="portfolio-wrap">
@@ -68,7 +74,8 @@
                 </figure>
   
                 <div class="portfolio-info">
-                  <p> YOU’ simply signup and update your daily transactions via online data sheets that would be provided to you.</p>
+                  <h5 class="h5"> YOU </h5>
+                   <p> Simply signup and update your daily transactions via online data sheets that would be provided to you.</p>
                 </div>
               </div>
             </div>
@@ -81,7 +88,8 @@
                 </figure>
   
                 <div class="portfolio-info">
-                  <p>US’ we assign you a personal accountant and ensure he gets the job done. </p>
+                  <h5 class="h5">US</h5> 
+                  <p>  We assign you a personal accountant and ensure he gets the job done. </p>
                 </div>
               </div>
             </div>
@@ -94,7 +102,8 @@
                 </figure>
   
                 <div class="portfolio-info">
-                  <p>US’ we send you monthly reports. Reports include: Profit/Loss, Balance sheets, Cash flow statements. (Note that your Online data sheet contains Financial reports like your Profit/Loss statements, Debtors and Creditors summary, Cash and Bank balances).</p>
+                  <h5 class="h5">US</h5>
+                   <p>  We send you monthly reports (Profit/Loss, Balance sheets, Cash flow statements)</p>
                 </div>
               </div>
             </div>
@@ -107,7 +116,8 @@
                 </figure>
   
                 <div class="portfolio-info">
-                  <p>US’we advice. Make recommendations based on what we observe. We basically become your partner.</p>
+                  <h5 class="h5">US</h5>
+                  <p>  We advice, make recommendations based on what we observe. We basically become your partner.</p>
                 </div>
               </div>
             </div>
@@ -120,86 +130,112 @@
     ============================-->
     <section id="team">
         <div class="container">
-          <div class="section-header wow fadeInUp">
+          <div class="section-header wow fadeInUp text-center">
             <h3>Team</h3>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+            <h4 class="h4">The question is , “Why are we the ones to solve the problem we identified?”
+            </h4>
           </div>
   
           <div class="row">
   
-            <div class="col-lg-3 col-md-6 wow fadeInUp">
+            <div class="col-md-4 wow fadeInUp">
               <div class="member">
-                <img src="img/team-1.jpg" class="img-fluid" alt="">
+                <img src="img/t1.jpg" class="img-fluid" alt="" style="height:300px;">
                 <div class="member-info">
                   <div class="member-info-content">
-                    <h4>Walter White</h4>
-                    <span>Chief Executive Officer</span>
+                    <h4>David Ita</h4>
+                    <span>CEO/Founder</span>
                     <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
+                      {{-- <a href=""><i class="fa fa-twitter"></i></a>
                       <a href=""><i class="fa fa-facebook"></i></a>
                       <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
+                      <a href=""><i class="fa fa-linkedin"></i></a> --}}
                     </div>
                   </div>
                 </div>
               </div>
             </div>
   
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
               <div class="member">
-                <img src="img/team-2.jpg" class="img-fluid" alt="">
+                <img src="img/team2.jpg" class="img-fluid" alt="" style="height:300px;">
                 <div class="member-info">
                   <div class="member-info-content">
-                    <h4>Sarah Jhonson</h4>
-                    <span>Product Manager</span>
+                    <h4>Toluwaloju Duro’Bello</h4>
+                    <span>Chief Operating Officer/CoFounder</span>
                     <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
+                      {{-- <a href=""><i class="fa fa-twitter"></i></a>
                       <a href=""><i class="fa fa-facebook"></i></a>
                       <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
+                      <a href=""><i class="fa fa-linkedin"></i></a> --}}
                     </div>
                   </div>
                 </div>
               </div>
             </div>
   
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
               <div class="member">
-                <img src="img/team-3.jpg" class="img-fluid" alt="">
+                <img src="img/t3.jpg" class="img-fluid" alt="" style="height:300px;">
                 <div class="member-info">
                   <div class="member-info-content">
-                    <h4>William Anderson</h4>
-                    <span>CTO</span>
+                    <h4>Dapo Eniola Martins</h4>
+                    <span>Business Development/CoFounder</span>
                     <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
+                      {{-- <a href=""><i class="fa fa-twitter"></i></a>
                       <a href=""><i class="fa fa-facebook"></i></a>
                       <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
+                      <a href=""><i class="fa fa-linkedin"></i></a> --}}
                     </div>
                   </div>
                 </div>
               </div>
             </div>
   
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div class="member">
-                <img src="img/team-4.jpg" class="img-fluid" alt="">
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Amanda Jepson</h4>
-                    <span>Accountant</span>
-                    <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
+           
           </div>
+
+          <div class="row">
+  
+              <div class="col-md-4 col-6 wow fadeInUp">
+                <div class="member">
+                  <img src="img/team4.jpg" class="img-fluid" alt="" style="height:250px;">
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>Patricia Ebong</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-md-4  col-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="member">
+                  <img src="img/team5.jpg" class="img-fluid" alt="" style="height:250px;">
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>Henrietta Arthur</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+             
+              <div class="col-md-4 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="member">
+                  <img src="img/t7.jpg" class="img-fluid" alt="" style="height:250px;">
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>Chisom Blessing</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+                 
+                
+  
+    
+            </div>
   
         </div>
       </section> 

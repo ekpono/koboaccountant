@@ -7,39 +7,37 @@
         <div class="col-lg-4 col-md-6 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><i class="ion-ios-arrow-right"></i> <a href="index.html">Home</a></li>
-            <li><i class="ion-ios-arrow-right"></i> <a href="about.html">About us</a></li>
+            <li><i class="ion-ios-arrow-right"></i> <a href="/">Home</a></li>
+            <li><i class="ion-ios-arrow-right"></i> <a href="/about">About us</a></li>
           </ul>
         </div>
 
         <div class="col-lg-4 col-md-6 footer-contact">
           <h4>Contact Us</h4>
-          <p>
-            , <br>
+          <p>8 Prince Olarewaju Elegushi road,
+          <br>
+           Ikate Ilasan, Lekki,<br>
            Lagos<br>
-            Nigeria <br>
-            <strong>Phone:</strong> +234 4959 - 3433 434<br>
-            <strong>Email:</strong> Koboaccountant.com<br>
+           Nigeria <br>
+            <strong>Phone:</strong> 08145758000<br>
           </p>
 
           <div class="social-links">
-            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-            <!-- <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a> -->
+            <a href="http://twitter.com/koboaccountant" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="http://facebook.com/koboaccountant" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="http://instagram.com/koboaccountant" class="instagram"><i class="fa fa-instagram"></i></a>
+            <a href="http://business@koboaccountant.com" class="instagram"><i class="fa fa-envelope"></i></a>
+
+            
           </div>
 
         </div>
 
         <div class="col-lg-4 col-md-6 footer-newsletter">
-          <h4>Our Newsletter</h4>
+          <h4>Our Purpose</h4>
         <p>
-            Garment making workshop We offer cutting edge sewing classes and workshops with expert instruction in constructing clothing
-            with today’s fabrics, personal pattern alterations and fitting, pattern drafting and design.</p>
-          <!-- <form action="" method="post">
-            <input type="email" name="email"><input type="submit"  value="Subscribe">
-          </form> -->
+          To be a leader in Tech-Accounting industry by providing simplified & locally adapted solutions, enhanced services platforms.</p>
+           
         </div>
 
       </div>
@@ -70,8 +68,10 @@
 <script src="lib/isotope/isotope.pkgd.min.js"></script>
 <script src="lib/lightbox/js/lightbox.min.js"></script>
 <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
-<!-- Contact Form JavaScript File -->
-<script src="contactform/contactform.js"></script>
+
+
+  <script src="{{ asset('js/main.js') }}" ></script>
+  <script src="{{ asset('js/app.js') }}" ></script>
 
 
 </body>
