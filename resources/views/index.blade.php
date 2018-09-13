@@ -38,11 +38,12 @@
     Header
   ============================-->
   <header id="header">
+    <div class="headerr">
     <div class="container-fluid">
       <div id="logo" class="pull-left">
-        <a href="/"><img src="{{asset("img/logo.png")}} alt="" title="" / class="logo"></a>
+        <a href="/"><img src="img/logo.png" alt="" title="" / class="logo"></a>
       </div>
-
+  
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="/">Home</a></li>
@@ -52,8 +53,9 @@
         </ul>
       </nav>
     </div>
+  </div>
   </header>
-
+  
   <!--==========================
     Intro Section
   ============================-->
@@ -338,22 +340,23 @@
 
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
- 
-  <script src="{{ asset('js/app.js') }}" ></script>
+<script src="lib/jquery/jquery-migrate.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/superfish/hoverIntent.js"></script>
+<script src="lib/superfish/superfish.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/isotope/isotope.pkgd.min.js"></script>
+<script src="lib/lightbox/js/lightbox.min.js"></script>
+<script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+
+
   <script src="{{ asset('js/main.js') }}" ></script>
- 
+  <script src="{{ asset('js/app.js') }}" ></script>
+
 
 </body>
 </html>
