@@ -8,7 +8,7 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
+  <link href="https://res.cloudinary.com/syfon/image/upload/v1536857508/favicon.png" rel="icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Englebert:300,400,500,700|Iceberg:300,400,500,700|Overpass:300,400,500,700" rel="stylesheet">
@@ -41,7 +41,7 @@
     {{-- <div class="headerr"> --}}
     <div class="container-fluid">
       <div id="logo" class="pull-left">
-        <a href="/"><img src="img/logo.png" alt="" title="" / class="logo"></a>
+        <a href="/"><img src="https://res.cloudinary.com/syfon/image/upload/v1536857508/favicon.png" alt="" title="" / class="logo"></a>
       </div>
   
       <nav id="nav-menu-container">
@@ -68,7 +68,7 @@
         <div class="carousel-inner" role="listbox">
 
           <div class="carousel-item active">
-            <div class="carousel-background"><img src={{asset("img/kobo1.jpg")}} alt="" class="img"></div>
+            <div class="carousel-background"><img src="https://res.cloudinary.com/syfon/image/upload/c_scale,w_2144/v1536855775/kobo1.jpg" alt="" class="img"></div>
             <div class="carousel-container">
               <div class="carousel-content">
                   <h1 class="h1">Accounting Like ABC</h1>
@@ -90,7 +90,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src={{asset("img/kobo2.jpg")}} alt="" class="img"></div>
+            <div class="carousel-background"><img src= "https://res.cloudinary.com/syfon/image/upload/c_scale,w_2088/v1536855804/kobo2.jpg" alt="" class="img"></div>
             <div class="carousel-container">
                 <div class="carousel-content">
                     <h1 class="h1">Fun And Seamless Accounting For Business</h1>
@@ -112,7 +112,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src={{asset("img/kobo3.jpg")}} alt="" class="img"></div>
+            <div class="carousel-background"><img src=http://res.cloudinary.com/syfon/image/upload/c_scale,q_81,w_2545/v1536855716/kobo3.jpg alt="" class="img"></div>
             <div class="carousel-container">
                 <div class="carousel-content">
                 <h1 class="h1">Accounting Isn't That Boring Afterall</h1>
@@ -134,7 +134,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src={{asset("img/kobo4.jpg")}} alt="" class="img"></div>
+            <div class="carousel-background"><img src= "https://res.cloudinary.com/syfon/image/upload/c_scale,w_1387/v1536855869/kobo4.jpg" alt="" class="img"></div>
             <div class="carousel-container">
                 <div class="carousel-content">
                     <h1 class="h1">Never Worry About Hiring An Accountant Again</h1>
@@ -156,7 +156,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src={{asset("img/kobo5.jpg")}} alt="" class="img"></div>
+            <div class="carousel-background"><img src="https://res.cloudinary.com/syfon/image/upload/c_scale,w_4519/v1536856524/kobo5.jpg" alt="" class="img"></div>
             <div class="carousel-container">
                 <div class="carousel-content">
                     <h1 class="h1">The Best Accountants in the World</h1>

@@ -2,7 +2,7 @@
   <div class="headerr">
   <div class="container-fluid">
     <div id="logo" class="pull-left">
-      <a href="/"><img src="img/logo.png" alt="" title="" / class="logo"></a>
+      <a href="/"><img src="https://res.cloudinary.com/syfon/image/upload/v1536857508/favicon.png" alt="" title="" / class="logo"></a>
     </div>
 
     <nav id="nav-menu-container">

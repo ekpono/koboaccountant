@@ -17,7 +17,7 @@
             <div class="col-md-4 wow fadeInUp">
               <div class="about-col">
                 <div class="img text-center">
-                  <img src="{{asset("img/mission.jpg")}}" alt="" class="img-fluid text-center" >
+                  <img src="https://res.cloudinary.com/syfon/image/upload/v1536857445/mission.jpg" alt="" class="img-fluid text-center" >
                 </div>
                 {{-- <h2 class="title"><a href="#">Our Mission</a></h2> --}}
                 <p class="p">
@@ -30,7 +30,7 @@
             <div class="col-md-4  wow fadeInUp text-center " data-wow-delay="0.5s">
                 <div class="about-col">
                   <div class="img">
-                    <img src="{{asset("img/vision.jpg")}}"" alt="" class="img-fluid pt-4">
+                    <img src="https://res.cloudinary.com/syfon/image/upload/v1536857500/vision.jpg" alt="" class="img-fluid pt-4">
                   </div>
                   {{-- <h2 class="title"><a href="#">Our Vision</a></h2> --}}
                   <p class="pt-4">
@@ -42,7 +42,7 @@
               <div class="col-md-4  wow fadeInUp text-center " data-wow-delay="0.3s">
                 <div class="about-col">
                   <div class="img">
-                    <img src={{asset("img/core.png")}} alt="" class="img-fluid pt-4" style="height: 280px;">
+                    <img src="https://res.cloudinary.com/syfon/image/upload/v1536857466/core.png" alt="" class="img-fluid pt-4" style="height: 280px;">
                   </div>
                   
                 </div>
@@ -69,7 +69,7 @@
             <div class="col-lg-3 col-md-6 portfolio-item filter-app wow fadeInUp">
               <div class="portfolio-wrap">
                 <figure>
-                  <img src="img/portfolio/app1.jpg" class="img-fluid rounded-circle" alt="" style="width:150px; height:150px;">
+                  <img src="https://res.cloudinary.com/syfon/image/upload/v1536857534/app1.jpg" class="img-fluid rounded-circle" alt="" style="width:150px; height:150px;">
                 
                 </figure>
   
@@ -83,7 +83,7 @@
             <div class="col-lg-3 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
               <div class="portfolio-wrap">
                 <figure>
-                  <img src="img/portfolio/web3.jpg" class="img-fluid rounded-circle" alt="" style="width:150px; height:150px;">
+                  <img src="https://res.cloudinary.com/syfon/image/upload/v1536857575/web3.jpg" class="img-fluid rounded-circle" alt="" style="width:150px; height:150px;">
                  
                 </figure>
   
@@ -97,7 +97,7 @@
             <div class="col-lg-3 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.3s">
               <div class="portfolio-wrap">
                 <figure>
-                  <img src="img/portfolio/app2.jpg" class="img-fluid rounded-circle" alt="" style="width:150px; height:150px;">
+                  <img src="https://res.cloudinary.com/syfon/image/upload/v1536857542/app2.jpg" class="img-fluid rounded-circle" alt="" style="width:150px; height:150px;">
 
                 </figure>
   
@@ -111,7 +111,7 @@
             <div class="col-lg-3 col-md-6 portfolio-item filter-card wow fadeInUp">
               <div class="portfolio-wrap">
                 <figure>
-                  <img src="img/portfolio/card2.jpg" class="img-fluid rounded-circle" alt="" style="width:150px; height:150px;">
+                  <img src="https://res.cloudinary.com/syfon/image/upload/v1536857565/web2.jpg" class="img-fluid rounded-circle" alt="" style="width:150px; height:150px;">
             
                 </figure>
   
@@ -140,7 +140,7 @@
   
             <div class="col-md-4 wow fadeInUp">
               <div class="member">
-                <img src={{asset("img/team1.jpg")}} class="img-fluid" alt="" style="height:300px;">
+                <img src="https://res.cloudinary.com/syfon/image/upload/c_scale,w_597/v1536857330/team1.jpg" class="img-fluid" alt="" style="height:300px;">
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>David Ita</h4>
@@ -158,7 +158,7 @@
   
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
               <div class="member">
-                <img src={{asset("img/team2.jpg")}} class="img-fluid" alt="" style="height:300px;">
+                <img src="https://res.cloudinary.com/syfon/image/upload/v1536857337/team2.jpg" class="img-fluid" alt="" style="height:300px;">
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>Toluwaloju Duro’Bello</h4>
@@ -199,7 +199,7 @@
   
               <div class="col-md-4 col-6 wow fadeInUp">
                 <div class="member">
-                  <img src="{{asset("img/team4.jpg")}}" class="img-fluid" alt="" style="height:250px;">
+                  <img src="https://res.cloudinary.com/syfon/image/upload/v1536857352/team4.jpg" class="img-fluid" alt="" style="height:250px;">
                   <div class="member-info">
                     <div class="member-info-content">
                       <h4>Patricia Ebong</h4>
@@ -210,7 +210,7 @@
     
               <div class="col-md-4  col-6 wow fadeInUp" data-wow-delay="0.4s">
                 <div class="member">
-                  <img src="img/team5.jpg" class="img-fluid" alt="" style="height:250px;">
+                  <img src="https://res.cloudinary.com/syfon/image/upload/v1536857377/team5.jpg" class="img-fluid" alt="" style="height:250px;">
                   <div class="member-info">
                     <div class="member-info-content">
                       <h4>Henrietta Arthur</h4>
@@ -222,7 +222,7 @@
              
               <div class="col-md-4 col-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="member">
-                  <img src={{asset("img/team7.jpg")}} class="img-fluid" alt="" style="height:250px;">
+                  <img src="https://res.cloudinary.com/syfon/image/upload/v1536857389/team7.jpg" class="img-fluid" alt="" style="height:250px;">
                   <div class="member-info">
                     <div class="member-info-content">
                       <h4>Chisom Blessing</h4>
