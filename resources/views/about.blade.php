@@ -27,10 +27,10 @@
               </div>
             </div>
     
-            <div class="col-md-4  wow fadeInUp text-center " data-wow-delay="0.5s">
+            <div class="col-md-4  wow fadeInUp text-center" data-wow-delay="0.5s">
                 <div class="about-col">
                   <div class="img">
-                    <img src="{{asset("img/vision.jpg")}}"" alt="" class="img-fluid pt-4">
+                    <img src="{{asset("img/vision.jpg")}}" alt="" class="img-fluid pt-4">
                   </div>
                   {{-- <h2 class="title"><a href="#">Our Vision</a></h2> --}}
                   <p class="pt-4">
