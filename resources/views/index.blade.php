@@ -195,6 +195,7 @@
 
 
 <!-- Modal -->
+
 <div class="modal fade p-3" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
@@ -209,6 +210,7 @@
               <h5>Choose A Package And Get An Accountant</h5>
                         <div class="card-body">
                                 <div class="pt-2">
+                                  <a href="#pay" class="pay">
                                     <div class="card">
                                         <div class="card-body">
                                             <h5 class="card-title" style="color:#003130;">BASIC: <span>&#8358;</span>5,628</h5>
@@ -217,9 +219,11 @@
               
                                           </div>
                                       </div>
+                                    </a>
                                 </div>
 
                                 <div class="pt-2">
+                                  <a href="#pay" class="pay">
                                     <div class="card">
                                         <div class="card-body">
                                           <h5 class="card-title" style="color:#003130;">CLASSIC: <span>&#8358;</span>10,628</h5>
@@ -229,9 +233,10 @@
                                               Bank Reconciliation. </p>
                                         </div>
                                       </div>
-                                </div>
-                
+                                    </a>
+                                    </div>
                           <div class="pt-2">
+                          <a href="#pay" class="pay">    
                               <div class="card">
                                   <div class="card-body">
                                       <h5 class="card-title" style="color:#ffbb00;">STANDARD: <span>&#8358;</span>19,528</h5>
@@ -245,10 +250,12 @@
                                           Internal Controls Review   </p>
                                   </div>
                                 </div>
-                          </div>
+                            </a>
+                            </div>
               
                           <div class=" pt-2">
-                              <div class="card">  
+                          <a href="#pay" class="pay">    
+                            <div class="card">  
                                   <div class="card-body">
                                 <h5 class="card-title" style="color:#ffbb00;">PRO: <span>&#8358;</span>30,628</h5>
                                 <p class="card-text">Bookkeeping  (with monthly reports),
@@ -265,10 +272,12 @@
                               Annual Returns (PAYE). </p>
                         </div>
                       </div>
+                    </a>
                       </div>
                       <p class="pack"><em><strong> *Packages are on Monthly basis</strong></em></p>                
                     </div>
 
+          <div id="pay" class="">
             <div class="row">
               <div class="col-md-2"></div>
 
@@ -328,6 +337,7 @@
 
                   
               </div>
+            </div>
           </div>
         </div>
       </div>

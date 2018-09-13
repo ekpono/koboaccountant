@@ -308,6 +308,14 @@
     color: rgb(1, 139, 98);
     text-decoration: none;
   }
+  .pay{
+    text-decoration: none;
+    color: #000;
+  }
+  .pay:hover{
+    text-decoration: none;
+    color: #000;
+  }
   
   
   /*--------------------------------------------------------------
