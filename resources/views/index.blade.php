@@ -275,7 +275,7 @@
                    {{ csrf_field() }} 
                     <div class="form-group row">
                       <input type="hidden" name="orderID" value="{{'KOBO-'.rand(10000,10000000)}}">
-                      <input type="hidden" name="reference" value="{{ Paystack::genTranxRef() }}">
+                      {{-- <input type="hidden" name="reference" value="{{ Paystack::genTranxRef() }}"> --}}
                       <input type="hidden" name="key" value="{{ config('paystack.secretKey') }}">
                       <label for="name" class="col-sm-4 col-form-label">Name</label>
                         <div class="col-sm-8">

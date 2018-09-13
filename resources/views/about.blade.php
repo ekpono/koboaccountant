@@ -19,7 +19,7 @@
                 <div class="img text-center">
                   <img src="{{asset("img/mission.jpg")}}" alt="" class="img-fluid text-center" >
                 </div>
-                <h2 class="title"><a href="#">Our Mission</a></h2>
+                {{-- <h2 class="title"><a href="#">Our Mission</a></h2> --}}
                 <p class="p">
                     To build long term relationships with our customers and clients and provide exceptional customer services by pursuing business through innovation and advanced technology.
 
@@ -30,10 +30,10 @@
             <div class="col-md-4  wow fadeInUp text-center " data-wow-delay="0.5s">
                 <div class="about-col">
                   <div class="img">
-                    <img src="{{asset("img/vision.jpg")}} alt="" class="img-fluid pt-5">
+                    <img src="{{asset("img/vision.jpg")}}"" alt="" class="img-fluid pt-4">
                   </div>
-                  <h2 class="title"><a href="#">Our Vision</a></h2>
-                  <p>
+                  {{-- <h2 class="title"><a href="#">Our Vision</a></h2> --}}
+                  <p class="pt-4">
                     To be a leader and provide quality services that exceeds the expectations of our esteemed customers.
                   </p>
                 </div>
@@ -42,7 +42,7 @@
               <div class="col-md-4  wow fadeInUp text-center " data-wow-delay="0.3s">
                 <div class="about-col">
                   <div class="img">
-                    <img src={{asset("img/core.png")}} alt="" class="img-fluid pt-4" style="height: 350px;">
+                    <img src={{asset("img/core.png")}} alt="" class="img-fluid pt-4" style="height: 280px;">
                   </div>
                   
                 </div>
