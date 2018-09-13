@@ -38,7 +38,7 @@
     Header
   ============================-->
   <header id="header">
-    <div class="headerr">
+    {{-- <div class="headerr"> --}}
     <div class="container-fluid">
       <div id="logo" class="pull-left">
         <a href="/"><img src="img/logo.png" alt="" title="" / class="logo"></a>
@@ -52,7 +52,7 @@
           <!-- <li><a href="contact.html">Contact</a></li> -->
         </ul>
       </nav>
-    </div>
+    {{-- </div> --}}
   </div>
   </header>
   
