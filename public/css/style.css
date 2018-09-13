@@ -660,7 +660,7 @@
   /* About Us Section
   --------------------------------*/
   #about {
-    background: url("../img/about-bg.jpg") center top no-repeat fixed;
+    background: url("https://res.cloudinary.com/syfon/image/upload/c_scale,w_1565/v1536857408/about-bg.jpg") center top no-repeat fixed;
     background-size: cover;
     padding: 60px 0 40px 0;
     position: relative;
