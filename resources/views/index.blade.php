@@ -66,7 +66,7 @@
         <div class="carousel-inner" role="listbox">
 
           <div class="carousel-item active">
-            <div class="carousel-background"><img src="img/p3.jpg " alt="" class="img"></div>
+            <div class="carousel-background"><img src="img/p3.jpg" alt="" class="img"></div>
             <div class="carousel-container">
               <div class="carousel-content">
                   <h1 class="h1">Accounting Like ABC</h1>
@@ -132,7 +132,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="img/p7.jpg " alt="" class="img"></div>
+            <div class="carousel-background"><img src="img/p7.jpg" alt="" class="img"></div>
             <div class="carousel-container">
                 <div class="carousel-content">
                     <h1 class="h1">Never Worry About Hiring An Accountant Again</h1>
@@ -337,7 +337,6 @@
  
 
   <!-- JavaScript Libraries -->
-  <script src="https://unpkg.com/formik/dist/formik.umd.production.js"></script>
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>

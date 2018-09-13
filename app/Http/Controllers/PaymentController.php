@@ -10,16 +10,16 @@ use App\Member;
 use Uuid;
 class PaymentController extends Controller
 {
-    public function redirectToGateway(MemberRequest $request)
+    public function redirectToGateway()
     {      
-        $member = new Member;
-        $member->id = Uuid::generate(5,str_random(5), Uuid::NS_DNS);
-        $member->name = $request->input('name');
-        $member->email = $request->input('email');
-        $member->business_name = $request->input('business_name');
-        $member->package = $request->input('amount');
-        $member->business_location = $request->input('business_location');
-        $member->save();
+        // $member = new Member;
+        // $member->id = Uuid::generate(5,str_random(5), Uuid::NS_DNS);
+        // $member->name = $request->input('name');
+        // $member->email = $request->input('email');
+        // $member->business_name = $request->input('business_name');
+        // $member->package = $request->input('amount');
+        // $member->business_location = $request->input('business_location');
+        // $member->save();
         try {
          return Paystack::getAuthorizationUrl()->redirectNow();
         }
