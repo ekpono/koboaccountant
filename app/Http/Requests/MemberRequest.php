@@ -26,7 +26,7 @@ class MemberRequest extends FormRequest
         return [
             'name' => 'required',
             'email' => 'required|email',
-            'package' => 'required',
+            'amount' => 'required',
         ];
     }
 

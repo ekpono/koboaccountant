@@ -17,7 +17,7 @@
             <div class="col-md-4 wow fadeInUp">
               <div class="about-col">
                 <div class="img text-center">
-                  <img src="img/mission.jpg" alt="" class="img-fluid text-center" >
+                  <img src="{{asset("img/mission.jpg")}}" alt="" class="img-fluid text-center" >
                 </div>
                 <h2 class="title"><a href="#">Our Mission</a></h2>
                 <p class="p">
@@ -30,7 +30,7 @@
             <div class="col-md-4  wow fadeInUp text-center " data-wow-delay="0.5s">
                 <div class="about-col">
                   <div class="img">
-                    <img src="img/vision.jpg" alt="" class="img-fluid pt-5">
+                    <img src="{{asset("img/vision.jpg")}} alt="" class="img-fluid pt-5">
                   </div>
                   <h2 class="title"><a href="#">Our Vision</a></h2>
                   <p>
@@ -42,7 +42,7 @@
               <div class="col-md-4  wow fadeInUp text-center " data-wow-delay="0.3s">
                 <div class="about-col">
                   <div class="img">
-                    <img src="img/core.png" alt="" class="img-fluid pt-4" style="height: 350px;">
+                    <img src={{asset("img/core.png")}} alt="" class="img-fluid pt-4" style="height: 350px;">
                   </div>
                   
                 </div>
@@ -140,7 +140,7 @@
   
             <div class="col-md-4 wow fadeInUp">
               <div class="member">
-                <img src="img/t1.jpg" class="img-fluid" alt="" style="height:300px;">
+                <img src={{asset("img/team1.jpg")}} class="img-fluid" alt="" style="height:300px;">
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>David Ita</h4>
@@ -158,7 +158,7 @@
   
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
               <div class="member">
-                <img src="img/team2.jpg" class="img-fluid" alt="" style="height:300px;">
+                <img src={{asset("img/team2.jpg")}} class="img-fluid" alt="" style="height:300px;">
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>Toluwaloju Duro’Bello</h4>
@@ -176,7 +176,7 @@
   
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
               <div class="member">
-                <img src="img/t3.jpg" class="img-fluid" alt="" style="height:300px;">
+                <img src={{asset("img/team3.jpg")}} class="img-fluid" alt="" style="height:300px;">
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>Dapo Eniola Martins</h4>
@@ -199,7 +199,7 @@
   
               <div class="col-md-4 col-6 wow fadeInUp">
                 <div class="member">
-                  <img src="img/team4.jpg" class="img-fluid" alt="" style="height:250px;">
+                  <img src="{{asset("img/team4.jpg")}}" class="img-fluid" alt="" style="height:250px;">
                   <div class="member-info">
                     <div class="member-info-content">
                       <h4>Patricia Ebong</h4>
@@ -222,7 +222,7 @@
              
               <div class="col-md-4 col-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="member">
-                  <img src="img/t7.jpg" class="img-fluid" alt="" style="height:250px;">
+                  <img src={{asset("img/team7.jpg")}} class="img-fluid" alt="" style="height:250px;">
                   <div class="member-info">
                     <div class="member-info-content">
                       <h4>Chisom Blessing</h4>

@@ -40,7 +40,7 @@
   <header id="header">
     <div class="container-fluid">
       <div id="logo" class="pull-left">
-        <a href="/"><img src="img/logo.png" alt="" title="" / class="logo"></a>
+        <a href="/"><img src="{{asset("img/logo.png")}} alt="" title="" / class="logo"></a>
       </div>
 
       <nav id="nav-menu-container">
@@ -66,7 +66,7 @@
         <div class="carousel-inner" role="listbox">
 
           <div class="carousel-item active">
-            <div class="carousel-background"><img src="img/p3.jpg " alt="" class="img"></div>
+            <div class="carousel-background"><img src={{asset("img/kobo1.jpg")}} alt="" class="img"></div>
             <div class="carousel-container">
               <div class="carousel-content">
                   <h1 class="h1">Accounting Like ABC</h1>
@@ -88,7 +88,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="img/kobo.jpg" alt="" class="img"></div>
+            <div class="carousel-background"><img src={{asset("img/kobo2.jpg")}} alt="" class="img"></div>
             <div class="carousel-container">
                 <div class="carousel-content">
                     <h1 class="h1">Fun And Seamless Accounting For Business</h1>
@@ -110,7 +110,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="img/p1.jpg" alt="" class="img"></div>
+            <div class="carousel-background"><img src={{asset("img/kobo3.jpg")}} alt="" class="img"></div>
             <div class="carousel-container">
                 <div class="carousel-content">
                 <h1 class="h1">Accounting Isn't That Boring Afterall</h1>
@@ -132,7 +132,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="img/p7.jpg " alt="" class="img"></div>
+            <div class="carousel-background"><img src={{asset("img/kobo4.jpg")}} alt="" class="img"></div>
             <div class="carousel-container">
                 <div class="carousel-content">
                     <h1 class="h1">Never Worry About Hiring An Accountant Again</h1>
@@ -154,7 +154,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="img/p4.jpg" alt="" class="img"></div>
+            <div class="carousel-background"><img src={{asset("img/kobo5.jpg")}} alt="" class="img"></div>
             <div class="carousel-container">
                 <div class="carousel-content">
                     <h1 class="h1">The Best Accountants in the World</h1>
@@ -279,41 +279,41 @@
                       <input type="hidden" name="key" value="{{ config('paystack.secretKey') }}">
                       <label for="name" class="col-sm-4 col-form-label">Name</label>
                         <div class="col-sm-8">
-                          <input type="name" name="name" class="form-control" id="inputPassword" placeholder="">
+                          <input type="name" name="name" class="form-control" id="inputPassword" placeholder="" required>
                         </div>
                       </div>
                     
                     <div class="form-group row">
                       <label for="email" class="col-sm-4 col-form-label">Email</label>
                       <div class="col-sm-8">
-                        <input type="email" name="email" class="form-control" id="inputPassword" placeholder="">
+                        <input type="email" name="email" class="form-control" id="inputPassword" placeholder="" required>
                       </div>
                     </div>
 
                     <div class="form-group row">
                         <label for="name" class="col-sm-4 col-form-label">Business Name</label>
                         <div class="col-sm-8">
-                          <input type="name" name="business_name"  class="form-control" id="inputPassword" placeholder="">
+                          <input type="name" name="business_name"  class="form-control" id="inputPassword" placeholder="" required>
                         </div>
                       </div>
 
                       <div class="form-group row">
                           <label for="name" class="col-sm-4 col-form-label">Business Location</label>
                           <div class="col-sm-8">
-                            <input type="name" name="business_location" class="form-control" id="inputPassword" placeholder="">
+                            <input type="name" name="business_location" class="form-control" id="inputPassword" placeholder="" required>
                           </div>
                         </div>
 
                         <div class="form-group">
                             <label for="inputState"><h6>Select Package Plan</h6></label>
-                            <select id="inputState" name="amount" class="form-control">
+                            <select id="inputState" name="amount" class="form-control" required>
                                 <option   value="3062800"  selected>PRO</option>
                                 <option  value="1952800">STANDARD</option>
                                 <option  value="1062800">CLASSIC</option>
                                 <option value="562800">BASIC</option>
                             </select>
                           </div>
-                        <button href="" type="submit" class="btn btn-primary form-control pt-2 ">
+                        <button href="" id="signupForm" type="submit" class="btn btn-primary form-control pt-2 ">
                             Sign Up
                         </button>
                       {{-- <button class="btn btn-success btn-lg btn-block" type="submit" value="Pay Now!">
