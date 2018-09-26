@@ -9,6 +9,8 @@
           <ul>
             <li><i class="ion-ios-arrow-right"></i> <a href="/">Home</a></li>
             <li><i class="ion-ios-arrow-right"></i> <a href="/about">About us</a></li>
+            <li><i class="ion-ios-arrow-right"></i> <a href="/term">Terms and Conditions</a></li>
+          
           </ul>
         </div>
 

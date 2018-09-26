@@ -28,6 +28,10 @@ Route::get('/blog', function () {
     return view('blog');
 });
 
+Route::get('/term', function () {
+    return view('term');
+});
+
 
 // Route::post('/pay', 'PaymentController@drop')->name('pay');
 

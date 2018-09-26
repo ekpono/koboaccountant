@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <title>Kobo accountant</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Description" content="Put your description here.">
+  <meta content="koboaccountant, accounting, kobo" name="keywords">
   <meta content="" name="description">
 
   <!-- Favicons -->
@@ -16,7 +17,6 @@
   <!-- Bootstrap CSS File -->
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="{{url('assets/css/bootstrap.min.css')}}"/> 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
@@ -45,7 +45,7 @@
       </div>
   
       <nav id="nav-menu-container">
-        <ul class="nav-menu">
+        <ul class="nav-menu pt-3">
           <li class="menu-active"><a href="/">Home</a></li>
           <li class="menu"><a href="/about">About Us</a></li>
           <li class="menu"><a href="/blog">Blog</a></li>
@@ -285,9 +285,9 @@
                 <form method="POST" action="{{ route('pay') }}" accept-charset="UTF-8">
                    {{ csrf_field() }} 
                     <div class="form-group row">
-                      <input type="hidden" name="orderID" value="{{'KOBO-'.rand(10000,10000000)}}">
+                      {{-- <input type="hidden" name="orderID" value="{{'KOBO-'.rand(10000,10000000)}}">
                       <input type="hidden" name="reference" value="{{ Paystack::genTranxRef() }}">
-                      <input type="hidden" name="key" value="{{ config('paystack.secretKey') }}">
+                      <input type="hidden" name="key" value="{{ config('paystack.secretKey') }}"> --}}
                       <label for="name" class="col-sm-4 col-form-label">Name</label>
                         <div class="col-sm-8">
                           <input type="name" name="name" class="form-control" id="inputPassword" placeholder="" required>
@@ -324,7 +324,11 @@
                                 <option value="562800">BASIC</option>
                             </select>
                           </div>
-                        <button href="" id="signupForm" type="submit" class="btn btn-primary form-control pt-2 ">
+                          <div class="form-check pb-2">
+                              <input type="checkbox" class="form-check-input" id="" required >
+                              <label class="form-check-label" for="terms"><a href="/term" target="_blank"> Agree to Terms and Conditions</a></label>
+                            </div>
+                             <button href="" id="signupForm" type="submit" class="btn btn-primary form-control pt-2 ">
                             Sign Up
                         </button>
                       {{-- <button class="btn btn-success btn-lg btn-block" type="submit" value="Pay Now!">

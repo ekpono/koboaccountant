@@ -1,4 +1,5 @@
 .logo{
+  margin-top: 0px !important;
     width: 150px !important;
     height:70px !important;
   }
@@ -96,7 +97,7 @@
   # Header
   --------------------------------------------------------------*/
   #header {
-    padding: 30px 0;
+    padding: 20px 0;
     height: 100px;
     position: fixed;
     left: 0;
@@ -109,7 +110,7 @@
   }
   
   .headerr{
-      padding: 30px 0;
+      padding: 20px 0;
       height: 100px;
       position: fixed;
       left: 0;
@@ -1222,4 +1223,6 @@
     font-size: 13px;
     color: #ddd;
   }
-  
+
+
+   

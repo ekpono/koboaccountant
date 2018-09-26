@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>Kobo accountant</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="koboaccountant, accounting, kobo" name="keywords">
   <meta content="" name="keywords">
   <meta content="" name="description">
 
@@ -16,7 +17,6 @@
   <!-- Bootstrap CSS File -->
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="{{url('assets/css/bootstrap.min.css')}}"/> 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
