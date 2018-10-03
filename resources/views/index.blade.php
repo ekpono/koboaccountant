@@ -115,7 +115,7 @@
             <div class="carousel-background"><img src=http://res.cloudinary.com/syfon/image/upload/c_scale,q_81,w_2545/v1536855716/kobo3.jpg alt="" class="img"></div>
             <div class="carousel-container">
                 <div class="carousel-content">
-                <h1 class="h1">Accounting Isn't That Boring Afterall</h1>
+                <h1 class="h1">Every kobo Counts</h1>
                     <h3 class="h3">Get An Accountant In Seconds…</h3>
                     <a href="" class="btn-get-started scrollto" data-toggle="modal" data-target="#exampleModal">
                       Click Here to Get Started
@@ -134,7 +134,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src= "https://res.cloudinary.com/syfon/image/upload/c_scale,w_1387/v1536855869/kobo4.jpg" alt="" class="img"></div>
+            <div class="carousel-background"><img src= "https://res.cloudinary.com/syfon/image/upload/c_scale,w_578/v1537467269/lag.jpg" alt="" class="img"></div>
             <div class="carousel-container">
                 <div class="carousel-content">
                     <h1 class="h1">Never Worry About Hiring An Accountant Again</h1>
@@ -156,7 +156,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="https://res.cloudinary.com/syfon/image/upload/c_scale,w_4519/v1536856524/kobo5.jpg" alt="" class="img"></div>
+            <div class="carousel-background"><img src="https://res.cloudinary.com/syfon/image/upload/c_scale,w_392/v1538564707/kobo5.png" alt="" class="img"></div>
             <div class="carousel-container">
                 <div class="carousel-content">
                     <h1 class="h1">The Best Accountants in the World</h1>
