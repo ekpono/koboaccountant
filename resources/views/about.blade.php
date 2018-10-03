@@ -133,8 +133,6 @@
         <div class="container">
           <div class="section-header wow fadeInUp text-center">
             <h3>Team</h3>
-            <h4 class="h4">The question is , “Why are we the ones to solve the problem we identified?”
-            </h4>
           </div>
   
           <div class="row">
@@ -240,6 +238,39 @@
   
         </div>
       </section> 
+
+      {{-- why koboaccountant --}}
+      <section id="kobo">
+          <div class="section-header wow fadeInUp container pt-5 pb-4">
+             <h3>Why Koboaccountant</h3>
+             <ul class="p-2">
+               <li>
+                  With weekly & monthly reports you get to; keep track of your business, measure growth and have sufficient information to make right business decisions.
+               </li>
+               <li>
+                  You have more time to focus on growing your business while we handle your accounting.
+               </li>
+               <li>
+                  You would have a third-party objectively review your Financial Records and advice objectively.
+               </li>
+               <li>
+                  You have access to Professional Accounting services at a minimal rate.
+               </li>
+               <li>
+                  You have 100% access to your financial data at anytime and anywhere.
+               </li>
+               <li>
+                  When applying for funds, we can write to the potential investor, financial institution etc. assuring them of the validity of your financial reports.
+               </li>
+               <li>
+                  You have Access to on-the-go financial advisory services. We are just a call/Visit/mail away.
+               </li>
+               <li>
+                 Zero software cost
+               </li>
+             </ul>
+          </div>
+      </section>
 
   </main>
 
