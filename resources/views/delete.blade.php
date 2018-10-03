@@ -3,20 +3,36 @@
 <head>
   <meta charset="utf-8">
   <title>Kobo accountant</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="Description" content="Put your description here.">
-  <meta content="koboaccountant, accounting, kobo" name="keywords">
-  <meta content="" name="description">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="Koboaccoutant">
+  <meta content="" name="Koboaccountant Services is a registered online Accounting business in Nigeria.">
 
   <!-- Favicons -->
-  <link href="https://res.cloudinary.com/syfon/image/upload/v1536857508/favicon.png" rel="icon">
-
+  <link href="img/favicon.png" rel="icon">
+    <script>
+        window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '912333495590130',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.11'
+    });
+  };
+(function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+    </script>
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Englebert:300,400,500,700|Iceberg:300,400,500,700|Overpass:300,400,500,700" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="{{url('assets/css/bootstrap.min.css')}}"/> 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
@@ -41,11 +57,11 @@
     {{-- <div class="headerr"> --}}
     <div class="container-fluid">
       <div id="logo" class="pull-left">
-        <a href="/"><img src="https://res.cloudinary.com/syfon/image/upload/v1536857508/favicon.png" alt="" title="" / class="logo"></a>
+        <a href="/"><img src="img/logo.png" alt="" title="" / class="logo"></a>
       </div>
   
       <nav id="nav-menu-container">
-        <ul class="nav-menu pt-3">
+        <ul class="nav-menu">
           <li class="menu-active"><a href="/">Home</a></li>
           <li class="menu"><a href="/about">About Us</a></li>
           <li class="menu"><a href="/blog">Blog</a></li>
@@ -90,7 +106,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src= "https://res.cloudinary.com/syfon/image/upload/c_scale,w_2088/v1536855804/kobo2.jpg" alt="" class="img"></div>
+            <div class="carousel-background"><img src="https://res.cloudinary.com/syfon/image/upload/c_scale,w_2088/v1536855804/kobo2.jpg" alt="" class="img"></div>
             <div class="carousel-container">
                 <div class="carousel-content">
                     <h1 class="h1">Fun And Seamless Accounting For Business</h1>
@@ -112,7 +128,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src=http://res.cloudinary.com/syfon/image/upload/c_scale,q_81,w_2545/v1536855716/kobo3.jpg alt="" class="img"></div>
+            <div class="carousel-background"><img src="http://res.cloudinary.com/syfon/image/upload/c_scale,q_81,w_2545/v1536855716/kobo3.jpg" alt="" class="img"></div>
             <div class="carousel-container">
                 <div class="carousel-content">
                 <h1 class="h1">Accounting Isn't That Boring Afterall</h1>
@@ -134,7 +150,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src= "https://res.cloudinary.com/syfon/image/upload/c_scale,w_1387/v1536855869/kobo4.jpg" alt="" class="img"></div>
+            <div class="carousel-background"><img src="http://res.cloudinary.com/syfon/image/upload/c_scale,w_610/v1537467269/lag.jpg" alt="" class="img"></div>
             <div class="carousel-container">
                 <div class="carousel-content">
                     <h1 class="h1">Never Worry About Hiring An Accountant Again</h1>
@@ -156,7 +172,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="https://res.cloudinary.com/syfon/image/upload/c_scale,w_4519/v1536856524/kobo5.jpg" alt="" class="img"></div>
+            <div class="carousel-background"><img src={{asset("img/kobo5.jpg")}} alt="" class="img"></div>
             <div class="carousel-container">
                 <div class="carousel-content">
                     <h1 class="h1">The Best Accountants in the World</h1>
@@ -324,14 +340,12 @@
                                 <option value="562800">BASIC</option>
                             </select>
                           </div>
-                          <div class="form-check pb-2">
-                              <input type="checkbox" class="form-check-input" id="" required >
-                              <label class="form-check-label" for="terms"><a href="/term" target="_blank"> Agree to Terms and Conditions</a></label>
-                            </div>
-                             <button href="" id="signupForm" type="submit" class="btn btn-primary form-control pt-2 ">
+                        <button href="" id="signupForm" type="submit" class="btn btn-primary form-control pt-2 ">
                             Sign Up
                         </button>
-                      
+                      {{-- <button class="btn btn-success btn-lg btn-block" type="submit" value="Pay Now!">
+              <i class="fa fa-plus-circle fa-lg"></i> Pay Now!
+              </button> --}}
                   </form>
               </div>
 
@@ -346,7 +360,14 @@
     </div>
   </div> 
   
-
+<!-- Facebook Chatbot -->
+<div class="fb-customerchat"
+ page_id="174498523078711"
+ theme_color="#ffbb00"
+ logged_in_greeting="Welcome to Koboaccoutant, How may we help you?"
+ logged_out_greeting="Welcome!!"
+ minimized="false">
+</div>
  
  
 
@@ -368,7 +389,6 @@
 
   <script src="{{ asset('js/main.js') }}" ></script>
   <script src="{{ asset('js/app.js') }}" ></script>
-
 
 </body>
 </html>
