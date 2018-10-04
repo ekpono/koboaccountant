@@ -112,7 +112,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src=http://res.cloudinary.com/syfon/image/upload/c_scale,q_81,w_2545/v1536855716/kobo3.jpg alt="" class="img"></div>
+            <div class="carousel-background"><img src=https://res.cloudinary.com/syfon/image/upload/c_scale,q_85,w_1793/v1538652505/kobo3.jpg alt="" class="img"></div>
             <div class="carousel-container">
                 <div class="carousel-content">
                 <h1 class="h1">Every kobo Counts</h1>
@@ -134,7 +134,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src= "https://res.cloudinary.com/syfon/image/upload/c_scale,w_578/v1537467269/lag.jpg" alt="" class="img"></div>
+            <div class="carousel-background"><img src= "https://res.cloudinary.com/syfon/image/upload/v1538650529/large_O5GRLq0F6MzgCZv-d8spKx6KSUORcEaA0Rjw1TXuGCA.jpg" alt="" class="img"></div>
             <div class="carousel-container">
                 <div class="carousel-content">
                     <h1 class="h1">Never Worry About Hiring An Accountant Again</h1>
@@ -156,7 +156,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="https://res.cloudinary.com/syfon/image/upload/c_scale,w_392/v1538564707/kobo5.png" alt="" class="img"></div>
+            <div class="carousel-background"><img src="https://res.cloudinary.com/syfon/image/upload/v1538650535/kobo5.png" alt="" class="img"></div>
             <div class="carousel-container">
                 <div class="carousel-content">
                     <h1 class="h1">The Best Accountants in the World</h1>
