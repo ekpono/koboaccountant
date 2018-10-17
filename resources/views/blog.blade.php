@@ -21,7 +21,7 @@
           <div class="row">
            
               @forelse ($posts as $post)
-              <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">              
+              <div class="col-md-6 box wow bounceInUp" data-wow-duration="1.4s">              
                   <h4 class="title"><a href="/blog/{{$post->slug}}">{{$post->title}}</a></h4>
                     <p class="description">{{str_limit($post->body, 200)}}</p>
                   </div>
