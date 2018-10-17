@@ -5,6 +5,7 @@
   <title>Kobo accountant</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="Description" content="Put your description here.">
+  <meta name="csrf-token" content="{{ csrf_token() }}">
   <meta content="koboaccountant, accounting, kobo" name="keywords">
   <meta content="" name="description">
 

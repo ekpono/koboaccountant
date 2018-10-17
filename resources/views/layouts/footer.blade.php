@@ -53,23 +53,27 @@
     
         </div>
 </footer>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 
+    <!-- Include this after the sweet alert js file -->
+    @include('sweet::alert')
 <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
 <!-- JavaScript Libraries -->
-<script src="lib/jquery/jquery.min.js"></script>
-<script src="lib/jquery/jquery-migrate.min.js"></script>
-<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="lib/easing/easing.min.js"></script>
-<script src="lib/superfish/hoverIntent.js"></script>
-<script src="lib/superfish/superfish.min.js"></script>
-<script src="lib/wow/wow.min.js"></script>
-<script src="lib/waypoints/waypoints.min.js"></script>
-<script src="lib/counterup/counterup.min.js"></script>
-<script src="lib/owlcarousel/owl.carousel.min.js"></script>
-<script src="lib/isotope/isotope.pkgd.min.js"></script>
-<script src="lib/lightbox/js/lightbox.min.js"></script>
-<script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+<script src="{{ asset('lib/jquery/jquery.min.js') }}"></script>
+<script src="{{ asset('lib/jquery/jquery-migrate.min.js') }}"></script>
+<script src="{{ asset('lib/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('lib/easing/easing.min.js') }}"></script>
+<script src="{{ asset('lib/superfish/hoverIntent.js') }}"></script>
+<script src="{{ asset('lib/superfish/superfish.min.js') }}"></script>
+<script src="{{ asset('lib/wow/wow.min.js') }}"></script>
+<script src="{{ asset('lib/waypoints/waypoints.min.js') }}"></script>
+<script src="{{ asset('lib/counterup/counterup.min.js') }}"></script>
+<script src="{{ asset('lib/owlcarousel/owl.carousel.min.js') }}"></script>
+<script src="{{ asset('lib/isotope/isotope.pkgd.min.js') }}"></script>
+<script src="{{ asset('lib/lightbox/js/lightbox.min.js') }}"></script>
+<script src="{{ asset('lib/touchSwipe/jquery.touchSwipe.min.js') }}"></script>
 
 
   <script src="{{ asset('js/main.js') }}" ></script>

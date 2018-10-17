@@ -1,4 +1,4 @@
-@extends('layouts.app')
+
 <style>
  #term{
     background: url("https://res.cloudinary.com/syfon/image/upload/v1537987588/polygon1.png"), url("https://www.amazon.com/drive/v1/nodes/MLAamYEDSluKwO158aPcwA/contentRedirection?querySuffix=%3FviewBox%3D329%2C777&ownerId=A3B8EIDKY1230S&cb=1537986526916");
