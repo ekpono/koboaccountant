@@ -3,7 +3,8 @@
 @section('content')
 <div  class="container mt-5 pt-5">
     <div class="row">
-        <div class="col-md-10 mt-5 ">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 mt-5 ">
             <h1>Edit Post</h1>
             @include('error')            
             <form method="post">
@@ -29,6 +30,7 @@
             <button type="submit" class="btn btn-primary mb-5">Update Post</button>
             </form>
         </div>
+        <div class="col-md-2"></div>
     </div>
 </div>
 

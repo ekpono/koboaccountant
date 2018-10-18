@@ -3,7 +3,8 @@
 @section('content')
 <div  class="container mt-5 pt-5">
     <div class="row">
-        <div class="col-md-10 mt-5">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 mt-5">
             {{-- @php
                 $mycontent = $post->body; // wordpress users only
                 $word = str_word_count(strip_tags($mycontent));
@@ -13,8 +14,12 @@
 
                 echo "Estimated Reading time ".$est;
             @endphp --}}
+
             <h1>{{$post->title}}</h1>
             <div class="mb-3">Posted: {{$post->created_at->diffForHumans() . " by " . $post->user->name . " | Reading Time " . $post->estimatedTime()}}</div>
+            <h1 style="font-weight:bold">{{$post->title}}</h1>
+            <h5 style="font-weight:500" class="mb-3">Posted: {{$post->created_at->diffForHumans() . " by " . $post->user->name . " | Reading Time " . $post->estimatedTime()}}</h5>
+
             <p>{!! $post->body !!}</p>
         
 
@@ -26,6 +31,7 @@
             </div>
             @endif
         </div>
+        <div class="col-md-2"></div>
 
     </div>
 </div>
