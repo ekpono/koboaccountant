@@ -23,10 +23,10 @@
               @forelse ($posts as $post)
               <div class="col-md-6 box wow bounceInUp mt-3" data-wow-duration="1.4s">              
                   <h3 class="titlee" ><a href="/blog/{{$post->slug}}" style="color:black; text-decoration:none; font-weight:bold;">{{$post->title}}</a></h3>
-                    <p class="description"><a href="/blog/{{$post->slug}}" style="color:#666; text-decoration:none;">{{str_limit($post->body, 150)}}</a></p>
+                    <p class="description"><a href="/blog/{{$post->slug}}" style="color:#666; text-decoration:none;">{!!str_limit($post->body, 150)!!}</a></p>
                     
-                    <h6 class="author">David Ita</h6>
-                      <p class="">Oct 16. 5 mins read <i class="fa fa-star-o"></i></p>
+                    <h6 class="author">{{$post->user->name}}</h6>
+                      <p class="">{{$post->created_at->format('d M')}} | {{$post->estimatedTime()}} read <i class="fa fa-star-o"></i></p>
                      
                      {{-- <hr class="hr" style="width:70px; border:2px solid #003130; margin:left"> --}}
                   </div>

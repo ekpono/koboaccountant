@@ -15,8 +15,6 @@
                 echo "Estimated Reading time ".$est;
             @endphp --}}
 
-            <h1>{{$post->title}}</h1>
-            <div class="mb-3">Posted: {{$post->created_at->diffForHumans() . " by " . $post->user->name . " | Reading Time " . $post->estimatedTime()}}</div>
             <h1 style="font-weight:bold">{{$post->title}}</h1>
             <h5 style="font-weight:500" class="mb-3">Posted: {{$post->created_at->diffForHumans() . " by " . $post->user->name . " | Reading Time " . $post->estimatedTime()}}</h5>
 
