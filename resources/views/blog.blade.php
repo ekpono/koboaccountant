@@ -22,7 +22,7 @@
            
               @forelse ($posts as $post)
               <div class="col-md-6 box wow bounceInUp mt-3" data-wow-duration="1.4s">              
-                  <h3 class="titlee" ><a href="/blog/{{$post->slug}}" style="color:black; text-decoration:none; font-weight:bold;">{{$post->title, 50}}</a></h3>
+                  <h3 class="titlee" ><a href="/blog/{{$post->slug}}" style="color:black; text-decoration:none; font-weight:bold;">{{$post->title}}</a></h3>
                     <p class="description"><a href="/blog/{{$post->slug}}" style="color:#666; text-decoration:none;">{{str_limit($post->body, 150)}}</a></p>
                     
                     <h6 class="author">David Ita</h6>
