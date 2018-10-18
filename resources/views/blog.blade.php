@@ -12,18 +12,23 @@
           <header class="section-header wow fadeInUp" style="margin-top:7rem;">
             <h3>BLOG</h3> <div class="text-right">
               @if(Auth::check())
-                    <a href="/create" class="mb-4 btn btn-primary">Create Post</a>
+                    <a href="/create" class="mb-2 btn btn-primary">Create Post</a>
                   @endif
             </div>
-            <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus, ad pro quaestio laboramus. Ei ubique vivendum pro. At ius nisl accusam lorenta zanos paradigno tridexa panatarel.</p>
+            {{-- <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus, ad pro quaestio laboramus. Ei ubique vivendum pro. At ius nisl accusam lorenta zanos paradigno tridexa panatarel.</p> --}}
           </header>
   
-          <div class="row">
+          <div class="row mt-3">
            
               @forelse ($posts as $post)
-              <div class="col-md-6 box wow bounceInUp" data-wow-duration="1.4s">              
-                  <h4 class="title"><a href="/blog/{{$post->slug}}">{{$post->title}}</a></h4>
-                    <p class="description">{{str_limit($post->body, 200)}}</p>
+              <div class="col-md-6 box wow bounceInUp mt-3" data-wow-duration="1.4s">              
+                  <h3 class="titlee" ><a href="/blog/{{$post->slug}}" style="color:black; text-decoration:none; font-weight:bold;">{{$post->title, 50}}</a></h3>
+                    <p class="description"><a href="/blog/{{$post->slug}}" style="color:#666; text-decoration:none;">{{str_limit($post->body, 150)}}</a></p>
+                    
+                    <h6 class="author">David Ita</h6>
+                      <p class="">Oct 16. 5 mins read <i class="fa fa-star-o"></i></p>
+                     
+                     {{-- <hr class="hr" style="width:70px; border:2px solid #003130; margin:left"> --}}
                   </div>
               @empty           
                   <h3 class=" description">No Post Yet, Please Check Back!</h3><br>
