@@ -23,7 +23,7 @@
               @forelse ($posts as $post)
               <div class="col-md-6 box wow bounceInUp" data-wow-duration="1.4s">              
                   <h4 class="title"><a href="/blog/{{$post->slug}}">{{$post->title}}</a></h4>
-                    <p class="description">{{str_limit($post->body, 200)}}</p>
+                    <p class="description">{!!str_limit($post->body, 200) !!}</p>
                   </div>
               @empty           
                   <h3 class=" description">No Post Yet, Please Check Back!</h3><br>

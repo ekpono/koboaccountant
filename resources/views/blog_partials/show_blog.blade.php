@@ -15,7 +15,7 @@
             @endphp --}}
             <h1>{{$post->title}}</h1>
             <div class="mb-3">Posted: {{$post->created_at->diffForHumans() . " by " . $post->user->name . " | Reading Time " . $post->estimatedTime()}}</div>
-            <h2>{{$post->body}}</h2>
+            <h2>{!! $post->body !!}</h2>
         
 
             <div class="mt-5 mb-5 addthis_inline_share_toolbox"></div>
