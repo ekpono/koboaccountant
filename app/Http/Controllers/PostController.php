@@ -25,7 +25,7 @@ class PostController extends Controller
         }
 
         Alert::message('Login error, Abeg Check your username or password', 'Oopz!');
-        return 'login error';
+        return back();
     }
 
     public function logout()
@@ -44,6 +44,7 @@ class PostController extends Controller
         $request->validate(([
             'body' => 'required|min:30',
             'title' => 'required|max:200',
+            'featured_image' => 'required|max:2048'
         ]));
 
         $post = new Post;
@@ -51,6 +52,15 @@ class PostController extends Controller
         $post->title = $request->title;
         $post->user_id = Auth::user()->id;
         $post->category = $request->category;
+        
+        if ($request->hasFile('featured_image')) {
+        $image = $request->file('featured_image');
+        $name = time().'.'.$image->getClientOriginalExtension();
+        $destinationPath = public_path('/images');
+        $image->move($destinationPath, $name);
+        }
+        $post->featured_image = $name;//$request->featured_image;
+        
         $post->save();
         Alert::message('Post Created Successfully', 'Success');
         return redirect('blog');
@@ -85,6 +95,14 @@ class PostController extends Controller
         $post = Post::where('slug', $slug)->first();
         $post->body = $request->body;
         $post->title = $request->title;
+        if ($request->hasFile('featured_image')) {
+        $image = $request->file('featured_image');
+        $name = time().'.'.$image->getClientOriginalExtension();
+        $destinationPath = public_path('/images');
+        $image->move($destinationPath, $name);
+        }
+        $post->featured_image = $name;//$request->featured_image;
+ 
         $post->category = $request->category;
         $post->save();
         Alert::message('Edited successfully', 'Post Edited!');        
@@ -97,5 +115,11 @@ class PostController extends Controller
         $post->delete();
         Alert::error('Deleted successfully', 'Post Deleted!');
         return redirect('blog');       
+    }
+
+    public function test()
+    {
+        $ar = ['hello', 'people', 'how are you'];
+        dd($ar);
     }
 }

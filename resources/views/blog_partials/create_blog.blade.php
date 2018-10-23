@@ -6,11 +6,23 @@
         <div class="col-md-10 mt-5 ">
             <h1>Create Post</h1>
             @include('error')            
-            <form method="post" action="/post">
+            <form method="post" action="/post" enctype="multipart/form-data">
             @csrf
             <div class="form-group">
                 <label for="exampleInputTitle">Title</label>
                 <input type="text" name="title" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter title">
+            </div>
+            <div class="form-group">
+                <label>Upload Image</label>
+                <div class="input-group">
+                    <span class="input-group-btn" >
+                        <span class="btn btn-default btn-file">
+                            Browse… <input type="file" id="imgInp" name="featured_image"/>
+                        </span>
+                    </span>
+                    <input type="text" class="form-control" readonly>
+                </div>
+                <img id="img-upload" />
             </div>
             {{--  <div class="form-group">
                 <label for="exampleInputCategory">Category</label>

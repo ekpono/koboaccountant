@@ -21,19 +21,28 @@
           <div class="row mt-3">
            
               @forelse ($posts as $post)
-              <div class="col-md-6 box wow bounceInUp mt-3" data-wow-duration="1.4s">              
-                  <h3 class="titlee" ><a href="/blog/{{$post->slug}}" style="color:black; text-decoration:none; font-weight:bold;">{{$post->title}}</a></h3>
-                    <p class="description"><a href="/blog/{{$post->slug}}" style="color:#666; text-decoration:none;">{!!str_limit($post->body, 150)!!}</a></p>
+              <div class="col-md-4 w-75 box wow bounceInUp mt-3 card" data-wow-duration="1.4s"> 
+                  <img class="featured_image card-img-top rounded" src="{{'images/'.$post->featured_image}}" align="center" width="150px" height="200px"/>                             
+                  <div class="card-body">
+                      <h3 class="titlee card-title" ><a href="/blog/{{$post->slug}}" style="color:black; text-decoration:none; font-weight:bold;">{{$post->title}}</a></h3>
                     
-                    <h6 class="author">{{$post->user->name}}</h6>
-                      <p class="">{{$post->created_at->format('d M')}} | {{$post->estimatedTime()}} read <i class="fa fa-star-o"></i></p>
-                     
+                      <p class="description"><a href="/blog/{{$post->slug}}" style="color:#666; text-decoration:none;">{!!str_limit($post->body, 200)!!}</a></p>
+                  
+                      <h5 class="author">{{$post->user->name}}</h5>
+                      
+                        <p class="">{{$post->created_at->format('d M')}} | {{$post->estimatedTime()}} read <i class="fa fa-star-o"></i></p>
+                      </div>
                      {{-- <hr class="hr" style="width:70px; border:2px solid #003130; margin:left"> --}}
                   </div>
               @empty           
                   <h3 class=" description">No Post Yet, Please Check Back!</h3><br>
               @endforelse 
-                 
+                 <div class="view overlay">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20(3).jpg" class="img-fluid " alt="">
+                    <div class="mask flex-center rgba-red-strong">
+                        <p class="white-text">Strong overlay</p>
+                    </div>
+                </div
           </div>
         </div>
       </section>
