@@ -23,7 +23,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
-
+Route::get('/newblog', 'PostController@newblog');
 Route::get('/blog', 'PostController@blog')->name('blog');
 
 Route::get('/term', function () {

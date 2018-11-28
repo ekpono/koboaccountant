@@ -28,7 +28,7 @@ class UsersTableSeeder extends Seeder
         // ]);
         DB::table('users')->insert([
             'name' => 'Ekpono Josep Ambrose',
-            'email' => 'busis@koaccountant.com',
+            'email' => 'busiss@kosaccountant.com',
             'password' => bcrypt('koboadmin'),
         ]);
     }

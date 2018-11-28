@@ -83,7 +83,8 @@
                         <a href="http://facebook.com/koboaccountant" class="facebook"><i class="fa fa-facebook"></i></a>
                         <a href="http://instagram.com/koboaccountant" class="instagram"><i class="fa fa-instagram"></i></a>
                         <a href="http://business@koboaccountant.com" class="instagram"><i class="fa fa-envelope"></i></a>
-
+                        <a href="https://chat.whatsapp.com/BSTofr7fiw8KJi45M1FYz6" class="instagram"><i class="fa fa-whatsapp"></i></a>
+                        
                       </div>
                 </div>
               </div>
@@ -105,7 +106,7 @@
                             <a href="http://facebook.com/koboaccountant" class="facebook"><i class="fa fa-facebook"></i></a>
                             <a href="http://instagram.com/koboaccountant" class="instagram"><i class="fa fa-instagram"></i></a>
                             <a href="http://business@koboaccountant.com" class="instagram"><i class="fa fa-envelope"></i></a>
-    
+                            <a href="https://chat.whatsapp.com/BSTofr7fiw8KJi45M1FYz6" class="instagram"><i class="fa fa-whatsapp"></i></a>                            
                           </div>
                     </div>
                   </div>
@@ -127,7 +128,8 @@
                             <a href="http://facebook.com/koboaccountant" class="facebook"><i class="fa fa-facebook"></i></a>
                             <a href="http://instagram.com/koboaccountant" class="instagram"><i class="fa fa-instagram"></i></a>
                             <a href="http://business@koboaccountant.com" class="instagram"><i class="fa fa-envelope"></i></a>
-    
+                            <a href="https://chat.whatsapp.com/BSTofr7fiw8KJi45M1FYz6" class="instagram"><i class="fa fa-whatsapp"></i></a>
+                            
                           </div>
                     </div>
                 </div>
@@ -149,7 +151,7 @@
                             <a href="http://facebook.com/koboaccountant" class="facebook"><i class="fa fa-facebook"></i></a>
                             <a href="http://instagram.com/koboaccountant" class="instagram"><i class="fa fa-instagram"></i></a>
                             <a href="http://business@koboaccountant.com" class="instagram"><i class="fa fa-envelope"></i></a>
-    
+                            <a href="https://chat.whatsapp.com/BSTofr7fiw8KJi45M1FYz6" class="instagram"><i class="fa fa-whatsapp"></i></a>                           
                           </div>
                     </div>
                 </div>
@@ -170,7 +172,8 @@
                         <a href="http://twitter.com/koboaccountant" class="twitter"><i class="fa fa-twitter"></i></a>
                         <a href="http://facebook.com/koboaccountant" class="facebook"><i class="fa fa-facebook"></i></a>
                         <a href="http://instagram.com/koboaccountant" class="instagram"><i class="fa fa-instagram"></i></a>
-                        <a href="http://business@koboaccountant.com" class="instagram"><i class="fa fa-envelope"></i></a>
+                        <a href="http://business@koboaccountant.com" class="instagram"><i class="fa fa-envelope"></i></a>                        
+                        <a href="https://chat.whatsapp.com/BSTofr7fiw8KJi45M1FYz6" class="instagram"><i class="fa fa-whatsapp"></i></a>
 
                       </div>
                     </div>

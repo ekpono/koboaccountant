@@ -71,6 +71,12 @@ class PostController extends Controller
         $posts = Post::orderBy('created_at', 'DESC')->get();
         return view('blog', ['posts'=> $posts]);
     }
+    
+    public function newblog()
+    {
+        $posts = Post::orderBy('created_at', 'DESC')->get();
+        return view('testblog', ['posts'=> $posts]);
+    }
 
     public function show($slug)
     {

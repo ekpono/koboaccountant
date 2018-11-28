@@ -4,7 +4,7 @@ namespace App;
 
 use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Model;
-
+use Carbon\Carbon;
 class Post extends Model
 {
     use Sluggable;
@@ -34,5 +34,10 @@ class Post extends Model
          $est = $m . ' min'; // . ($m == 1 ? '' : 's');
 
         return $est;
+    }
+
+    public function PostThatAreSevenDaysOld()
+    {
+        return $this->created_at > Carbon::now()->subDays(7);
     }
 }
