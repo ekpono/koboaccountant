@@ -9,7 +9,7 @@
           <ul>
             <li><i class="ion-ios-arrow-right"></i> <a href="/">Home</a></li>
             <li><i class="ion-ios-arrow-right"></i> <a href="/about">About us</a></li>
-            <li><i class="ion-ios-arrow-right"></i> <a href="/term">Terms and Conditions</a></li>
+            <li><i class="ion-ios-arrow-right"></i> <a href="/terms">Terms and Conditions</a></li>
           
           </ul>
         </div>
@@ -25,12 +25,10 @@
           </p>
 
           <div class="social-links">
-            <a href="http://twitter.com/koboaccountant" class="twitter"><i class="fa fa-twitter">23</i></a>
+            <a href="http://twitter.com/koboaccountant" class="twitter"><i class="fa fa-twitter"></i></a>
             <a href="http://facebook.com/koboaccountant" class="facebook"><i class="fa fa-facebook"></i></a>
             <a href="http://instagram.com/koboaccountant" class="instagram"><i class="fa fa-instagram"></i></a>
-            <a href="http://business@koboaccountant.com" class="instagram"><i class="fa fa-envelope"></i></a>            
-            <a href="https://chat.whatsapp.com/BSTofr7fiw8KJi45M1FYz6" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
-            
+            <a href="http://business@koboaccountant.com" class="instagram"><i class="fa fa-envelope"></i></a>
 
             
           </div>
@@ -40,7 +38,7 @@
         <div class="col-lg-4 col-md-6 footer-newsletter">
           <h4>Our Purpose</h4>
         <p>
-          To be a leader in Tech-Accounting industry by providing simplified & locally adapted solutions, enhanced services platforms.</p>
+          To be a leader in Tech-Accounting industry by providing simplified & locally adapted solutions, and enhanced services platforms.</p>
            
         </div>
 

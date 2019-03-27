@@ -1,24 +1,28 @@
 <?php
 
 namespace App\Mail;
+
 use App\Member;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-class SubscriptionRecieved extends Mailable
+class SubscriptionReceived extends Mailable
 {
     use Queueable, SerializesModels;
-    public $member;
+
     /**
      * Create a new message instance.
      *
      * @return void
      */
+     
+    public $member;
+
     public function __construct(Member $member)
     {
-        $this->mail = $member;
+        $this->member = $member;
     }
 
     /**

@@ -63,19 +63,13 @@ class PostController extends Controller
         
         $post->save();
         Alert::message('Post Created Successfully', 'Success');
-        return redirect('blog');
+        return redirect('learn');
     }
 
     public function blog()
     {
         $posts = Post::orderBy('created_at', 'DESC')->get();
         return view('blog', ['posts'=> $posts]);
-    }
-    
-    public function newblog()
-    {
-        $posts = Post::orderBy('created_at', 'DESC')->get();
-        return view('testblog', ['posts'=> $posts]);
     }
 
     public function show($slug)
@@ -106,13 +100,14 @@ class PostController extends Controller
         $name = time().'.'.$image->getClientOriginalExtension();
         $destinationPath = public_path('/images');
         $image->move($destinationPath, $name);
-        }
         $post->featured_image = $name;//$request->featured_image;
+        
+        }
  
         $post->category = $request->category;
         $post->save();
         Alert::message('Edited successfully', 'Post Edited!');        
-        return redirect('blog');
+        return redirect('learn');
     }
 
     public function destroy($slug)
@@ -120,12 +115,11 @@ class PostController extends Controller
         $post = Post::where('slug', $slug)->first();
         $post->delete();
         Alert::error('Deleted successfully', 'Post Deleted!');
-        return redirect('blog');       
+        return redirect('learn');       
     }
 
-    public function test()
+    public function training()
     {
-        $ar = ['hello', 'people', 'how are you'];
-        dd($ar);
+        return view('training');
     }
 }

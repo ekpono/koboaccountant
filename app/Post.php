@@ -35,7 +35,7 @@ class Post extends Model
 
         return $est;
     }
-
+    
     public function PostThatAreSevenDaysOld()
     {
         return $this->created_at > Carbon::now()->subDays(7);

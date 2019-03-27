@@ -4,17 +4,32 @@
   <meta charset="utf-8">
   <title>Kobo accountant</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="Description" content="Put your description here.">
+  <meta name="Description" content="koboaccountant, accounting, kobo, Nigeria accounting, Nigeria accountant, accountant Nigeria, Lekki accountant, Lagos accountant, Naija accountant">
+  <meta content="koboaccountant, Nigeria accounting, account, koboaccount, accounting, kobo, Nigeria accounting, Nigeria accountant, accountant Nigeria, Lekki accountant, Lagos accountant, Naija accountant" name="keywords">
   <meta name="csrf-token" content="{{ csrf_token() }}">
-  <meta content="koboaccountant, accounting, kobo" name="keywords">
   <meta content="" name="description">
-
   <!-- Favicons -->
   <link href="https://res.cloudinary.com/syfon/image/upload/v1536857508/favicon.png" rel="icon">
-
+  <script>
+    window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '912333495590130',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.11'
+    });
+  };
+(function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+    </script>
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Englebert:300,400,500,700|Iceberg:300,400,500,700|Overpass:300,400,500,700" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Alef" rel="stylesheet">
   <!-- Bootstrap CSS File -->
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
@@ -49,7 +64,10 @@
         <ul class="nav-menu pt-3">
           <li class="menu-active"><a href="/">Home</a></li>
           <li class="menu"><a href="/about">About Us</a></li>
-          <li class="menu"><a href="/blog">Blog</a></li>
+          <li class="menu"><a href="/learn">Learn</a></li>
+           <li class="menu"><a href="/training">Trainings</a></li>
+
+            <!--<li class="menu"><a href="/test">Test</a></li>-->
           <!-- <li><a href="contact.html">Contact</a></li> -->
         </ul>
       </nav>
@@ -60,7 +78,7 @@
   <!--==========================
     Intro Section
   ============================-->
-  <section id="intro">
+   <section id="intro">
     <div class="intro-container">
       <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
 
@@ -84,7 +102,8 @@
                         <a href="http://instagram.com/koboaccountant" class="instagram"><i class="fa fa-instagram"></i></a>
                         <a href="http://business@koboaccountant.com" class="instagram"><i class="fa fa-envelope"></i></a>
                         <a href="https://chat.whatsapp.com/BSTofr7fiw8KJi45M1FYz6" class="instagram"><i class="fa fa-whatsapp"></i></a>
-                        
+
+
                       </div>
                 </div>
               </div>
@@ -106,7 +125,8 @@
                             <a href="http://facebook.com/koboaccountant" class="facebook"><i class="fa fa-facebook"></i></a>
                             <a href="http://instagram.com/koboaccountant" class="instagram"><i class="fa fa-instagram"></i></a>
                             <a href="http://business@koboaccountant.com" class="instagram"><i class="fa fa-envelope"></i></a>
-                            <a href="https://chat.whatsapp.com/BSTofr7fiw8KJi45M1FYz6" class="instagram"><i class="fa fa-whatsapp"></i></a>                            
+                            <a href="https://chat.whatsapp.com/BSTofr7fiw8KJi45M1FYz6" class="instagram"><i class="fa fa-whatsapp"></i></a>
+
                           </div>
                     </div>
                   </div>
@@ -114,7 +134,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src=https://res.cloudinary.com/syfon/image/upload/c_scale,q_85,w_1793/v1538652505/kobo3.jpg alt="" class="img"></div>
+            <div class="carousel-background"><img src=http://res.cloudinary.com/syfon/image/upload/c_scale,q_81,w_2545/v1536855716/kobo3.jpg alt="" class="img"></div>
             <div class="carousel-container">
                 <div class="carousel-content">
                 <h1 class="h1">Every kobo Counts</h1>
@@ -129,7 +149,7 @@
                             <a href="http://instagram.com/koboaccountant" class="instagram"><i class="fa fa-instagram"></i></a>
                             <a href="http://business@koboaccountant.com" class="instagram"><i class="fa fa-envelope"></i></a>
                             <a href="https://chat.whatsapp.com/BSTofr7fiw8KJi45M1FYz6" class="instagram"><i class="fa fa-whatsapp"></i></a>
-                            
+
                           </div>
                     </div>
                 </div>
@@ -151,7 +171,8 @@
                             <a href="http://facebook.com/koboaccountant" class="facebook"><i class="fa fa-facebook"></i></a>
                             <a href="http://instagram.com/koboaccountant" class="instagram"><i class="fa fa-instagram"></i></a>
                             <a href="http://business@koboaccountant.com" class="instagram"><i class="fa fa-envelope"></i></a>
-                            <a href="https://chat.whatsapp.com/BSTofr7fiw8KJi45M1FYz6" class="instagram"><i class="fa fa-whatsapp"></i></a>                           
+                            <a href="https://chat.whatsapp.com/BSTofr7fiw8KJi45M1FYz6" class="instagram"><i class="fa fa-whatsapp"></i></a>
+
                           </div>
                     </div>
                 </div>
@@ -172,7 +193,7 @@
                         <a href="http://twitter.com/koboaccountant" class="twitter"><i class="fa fa-twitter"></i></a>
                         <a href="http://facebook.com/koboaccountant" class="facebook"><i class="fa fa-facebook"></i></a>
                         <a href="http://instagram.com/koboaccountant" class="instagram"><i class="fa fa-instagram"></i></a>
-                        <a href="http://business@koboaccountant.com" class="instagram"><i class="fa fa-envelope"></i></a>                        
+                        <a href="http://business@koboaccountant.com" class="instagram"><i class="fa fa-envelope"></i></a>
                         <a href="https://chat.whatsapp.com/BSTofr7fiw8KJi45M1FYz6" class="instagram"><i class="fa fa-whatsapp"></i></a>
 
                       </div>
@@ -200,7 +221,7 @@
 
 <!-- Modal -->
 
-<div class="modal fade p-3" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal show p-3" id="exampleModal" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -217,9 +238,11 @@
                                   <a href="#pay" class="pay">
                                     <div class="card">
                                         <div class="card-body">
-                                            <h5 class="card-title" style="color:#003130;">BASIC: <span>&#8358;</span>5,628</h5>
-                                            <p class="card-text">Bookkeeping  (with monthly reports),
-                                                Asset register, Financial Advisory. </p>
+                                            <h5 class="card-title" style="color:#003130;">BASIC: <span>&#8358;</span> 18,880</h5>
+                                            <p class="card-text">Set up Accounting Structure, 
+                                            Create Accounting Chart, Ensure Proper  Bookkeeping, 
+                                            Prepare Monthly reports, Prepare & manage Assets Register, 
+                                            Financial Structuring & Advisory. </p>
               
                                           </div>
                                       </div>
@@ -230,11 +253,14 @@
                                   <a href="#pay" class="pay">
                                     <div class="card">
                                         <div class="card-body">
-                                          <h5 class="card-title" style="color:#003130;">CLASSIC: <span>&#8358;</span>10,628</h5>
-                                          <p class="card-text">Standard:  Bookkeeping  (with monthly reports),
-                                              Asset register, Financial Advisory,
-                                              Working capital,
-                                              Bank Reconciliation. </p>
+                                          <h5 class="card-title" style="color:#003130;">CLASSIC: <span>&#8358;</span> 28,628</h5>
+                                          <p class="card-text">Set up Accounting Structure, 
+                                          Create/Manage Accounting Chart, Ensure Proper  
+                                          Bookkeeping, Prepare Monthly reports, 
+                                          Prepare & manage Assets Register, 
+                                          Financial Structuring & Advisory, 
+                                          Monthly working capital review & 
+                                          Bank Reconciliation. </p>
                                         </div>
                                       </div>
                                     </a>
@@ -243,15 +269,15 @@
                           <a href="#pay" class="pay">    
                               <div class="card">
                                   <div class="card-body">
-                                      <h5 class="card-title" style="color:#ffbb00;">STANDARD: <span>&#8358;</span>19,528</h5>
-                                      <p class="card-text">Bookkeeping  (with monthly reports),
-                                          Asset register, Financial Advisory,
-                                          Working capital,
-                                          Budget Preparation and Analysis
-                                          Budgetary Controls.
-                                          Bank Reconciliation.    
-                                          Cost reduction strategies. 
-                                          Internal Controls Review   </p>
+                                      <h5 class="card-title" style="color:#ffbb00;">STANDARD: <span>&#8358;</span> 40,028</h5>
+                                      <p class="card-text">Set up Accounting Structure, 
+                                      Create/Manage Accounting Chart, 
+                                      Ensure Proper  Bookkeeping, 
+                                      Prepare Monthly reports, Prepare & manage Assets Register, 
+                                      Financial Structuring & Advisory, 
+                                      Monthly working capital review & 
+                                      Bank Reconciliation, Budget preparation and Analysis, 
+                                      Cost reduction strategies, Internal controls review</p>
                                   </div>
                                 </div>
                             </a>
@@ -261,19 +287,17 @@
                           <a href="#pay" class="pay">    
                             <div class="card">  
                                   <div class="card-body">
-                                <h5 class="card-title" style="color:#ffbb00;">PRO: <span>&#8358;</span>30,628</h5>
-                                <p class="card-text">Bookkeeping  (with monthly reports),
-                              Asset register, Financial Advisory,
-                              Working capital,
-                              Budget Preparation and Analysis
-                              Budgetary Controls,
-                              Bank Reconciliation,   
-                              Cost reduction strategies, 
-                              Internal Controls Review,    
-                              Investment analysis and advisory,
-                              Preparation of Annual financial statements in line with IFRS specifications,
-                              Banking and credit advisory services, Financial forecast 
-                              Annual Returns (PAYE). </p>
+                                <h5 class="card-title" style="color:#ffbb00;">PRO: <span>&#8358;</span> 60,268</h5>
+                                <p class="card-text">Set up Accounting Structure, 
+                                Create/ Manage Accounting Chart, Ensure Proper  
+                                Bookkeeping, Prepare Monthly reports, 
+                                Prepare & manage Assets Register, 
+                                Financial Structuring & Advisory, 
+                                Monthly working capital review & 
+                                Bank Reconciliation, Cost reduction strategies, 
+                                Internal controls review, Investment review, 
+                                Financial Projections and Forecast, Payroll management, 
+                                Tax Services(PAYE/VAT), Annual financial reports.</p>
                         </div>
                       </div>
                     </a>
@@ -304,7 +328,12 @@
                         <input type="email" name="email" class="form-control" id="inputPassword" placeholder="" required>
                       </div>
                     </div>
-
+                    <div class="form-group row">
+                        <label for="phone" class="col-sm-4 col-form-label">Phone</label>
+                        <div class="col-sm-8">
+                            <input type="text" name="phone"  class="form-control" id="inputPassword" placeholder="" required>
+                        </div>
+                    </div>
                     <div class="form-group row">
                         <label for="name" class="col-sm-4 col-form-label">Business Name</label>
                         <div class="col-sm-8">
@@ -322,15 +351,15 @@
                         <div class="form-group">
                             <label for="inputState"><h6>Select Package Plan</h6></label>
                             <select id="inputState" name="amount" class="form-control" required>
-                                <option   value="3062800"  selected>PRO</option>
-                                <option  value="1952800">STANDARD</option>
-                                <option  value="1062800">CLASSIC</option>
-                                <option value="562800">BASIC</option>
+                                <option   value="6026800"  selected>PRO</option>
+                                <option  value="4002800">STANDARD</option>
+                                <option  value="2862800">CLASSIC</option>
+                                <option value="1888000">BASIC</option>
                             </select>
                           </div>
                           <div class="form-check pb-2">
                               <input type="checkbox" class="form-check-input" id="" required >
-                              <label class="form-check-label" for="terms"><a href="/term" target="_blank"> Agree to Terms and Conditions</a></label>
+                              <label class="form-check-label" for="terms"><a href="/terms" target="_blank"> Agree to Terms and Conditions</a></label>
                             </div>
                              <button href="" id="signupForm" type="submit" class="btn btn-primary form-control pt-2 ">
                             Sign Up
@@ -350,7 +379,13 @@
     </div>
   </div> 
   
-
+<div class="fb-customerchat"
+ page_id="174498523078711"
+ theme_color="#ffbb00"
+ logged_in_greeting="Welcome to Koboaccoutant, How may we help you?"
+ logged_out_greeting="Welcome!!"
+ minimized="false">
+</div>
  
  
 

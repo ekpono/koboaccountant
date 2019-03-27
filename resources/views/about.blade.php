@@ -175,7 +175,7 @@
   
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
               <div class="member">
-                <img src={{asset("img/team3.jpg")}} class="img-fluid" alt="" style="height:300px;">
+                <img src="https://res.cloudinary.com/syfon/image/upload/v1540847004/dapo.jpg" class="img-fluid" alt="" style="height:300px;">
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>Dapo Eniola Martins</h4>
@@ -271,7 +271,6 @@
              </ul>
           </div>
       </section>
-      <iframe src="https://www.testyou.in/iframe/TestDescription.aspx?testId=XRslPSyQQyms9TEuPWDwNw==" width="500px" height="400px" scrolling="auto" ></iframe>
 
   </main>
 
