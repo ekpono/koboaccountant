@@ -11,7 +11,19 @@
             @csrf
             <div class="form-group">
                 <label for="exampleInputTitle">Title</label>
-                <input type="text" name="title" value="{{$post->title}} class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter title">
+                <input type="text" name="title" value="{{$post->title}}" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter title">
+            </div>
+            <div class="form-group">
+                <label>Upload Image</label>
+                <div class="input-group">
+                    <span class="input-group-btn" >
+                        <span class="btn btn-default btn-file">
+                            Browse… <input type="file" id="imgInp" value="{{$post->featured_image}}" name="featured_image"/>
+                        </span>
+                    </span>
+                    <input type="text" class="form-control" readonly>
+                </div>
+                <img id="img-upload" />
             </div>
             {{--  <div class="form-group">
                 <label for="exampleInputCategory">Category</label>

@@ -24,11 +24,7 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/blog', 'PostController@blog')->name('blog');
-
-Route::get('/term', function () {
-    return view('term');
-});
+Route::get('/learn', 'PostController@blog')->name('blog');
 
 
 // Route::post('/pay', 'PaymentController@drop')->name('pay');
@@ -38,22 +34,29 @@ Route::post('/pay', [
     'as' => 'pay'
 ]);
 
+
+Route::get('/terms', function () {
+    return view('term');
+});
+
 Route::get('/login', 'PostController@login')->name('login');
 
 Route::post('/login', 'PostController@authenticate');
 
-
-
+Route::get('/test', function(){
+    return view('test');
+});
 
 Route::post('post', 'PostController@store');
 
-Route::get('blog/{post}', 'PostController@show');
+Route::get('learn/{post}', 'PostController@show');
 
+Route::get('training', 'PostController@training');
 
 Route::group(['middleware' => ['auth']], function () {
-    Route::get('blog/edit_post/{post}/delete', 'PostController@destroy');
-    Route::get('blog/edit_post/{post}', 'PostController@edit');
+    Route::get('learn/edit_post/{post}/delete', 'PostController@destroy');
+    Route::get('learn/edit_post/{post}', 'PostController@edit');
     Route::get('create', 'PostController@create');
-    Route::post('blog/edit_post/{post}', 'PostController@update');
+    Route::post('learn/edit_post/{post}', 'PostController@update');
     Route::get('/logout', 'PostController@logout');
 });

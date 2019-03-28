@@ -9,7 +9,7 @@
           <ul>
             <li><i class="ion-ios-arrow-right"></i> <a href="/">Home</a></li>
             <li><i class="ion-ios-arrow-right"></i> <a href="/about">About us</a></li>
-            <li><i class="ion-ios-arrow-right"></i> <a href="/term">Terms and Conditions</a></li>
+            <li><i class="ion-ios-arrow-right"></i> <a href="/terms">Terms and Conditions</a></li>
           
           </ul>
         </div>
@@ -38,7 +38,7 @@
         <div class="col-lg-4 col-md-6 footer-newsletter">
           <h4>Our Purpose</h4>
         <p>
-          To be a leader in Tech-Accounting industry by providing simplified & locally adapted solutions, enhanced services platforms.</p>
+          To be a leader in Tech-Accounting industry by providing simplified & locally adapted solutions, and enhanced services platforms.</p>
            
         </div>
 

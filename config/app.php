@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'env' => env('APP_ENV', 'production'),
+    'env' => env('APP_ENV', 'local'),
 
     /*
     |--------------------------------------------------------------------------
@@ -147,7 +147,6 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         Unicodeveloper\Paystack\PaystackServiceProvider::class,
-        Unisharp\Ckeditor\ServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -161,7 +160,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
+        Unisharp\Ckeditor\ServiceProvider::class,
 
     ],
 

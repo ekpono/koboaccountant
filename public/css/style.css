@@ -14,7 +14,7 @@
     outline: none;
     text-decoration: none;
   } */
-  .facebook, .twitter, .instagram{
+  .facebook, .twitter, .instagram, .whatsapp{
     color:#ffbb00;
     font-size: 32px;
     padding-right: 10px;
@@ -1225,6 +1225,38 @@
     font-size: 13px;
     color: #ddd;
   }
+  /* //image upload */
+  .btn-file {
+      position: relative;
+      overflow: hidden;
+  }
+
+  .btn-file input[type=file] {
+      position: absolute;
+      top: 0;
+      right: 0;
+      min-width: 50%;
+      min-height: 50%;
+      font-size: 100px;
+      text-align: right;
+      filter: alpha(opacity=0);
+      opacity: 0;
+      outline: none;
+      background: white;
+      cursor: inherit;
+      display: block;
+  }
+
+  #img-upload {
+      width: 50%!important;
+  }
+  /* End of image upload */
+.featured_image {
+  float: right;
+  margin: 5px;
+}
+.card:hover {
+   transform: scale(1.03);
+}
 
 
-   

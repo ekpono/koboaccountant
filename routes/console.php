@@ -16,3 +16,18 @@ use Illuminate\Foundation\Inspiring;
 Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
 })->describe('Display an inspiring quote');
+
+// For creating a new view file
+// Artisan::command('kobo:view {name}', function(){
+
+//     $view = $this->argument('name');
+    
+//     $template = File::get('resources/templete/view.txt');
+  
+//     $compiled = str_replace('{name}', $view, $template);
+
+//     File::put('resources/views/'.$view.'.blade.php', $compiled);
+
+//     $this->info('View successfully reneragated');
+    
+// })->describe('Get a view file out of the box');
